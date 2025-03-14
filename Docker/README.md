@@ -4,6 +4,7 @@
 ### 1. khái niệm.
 - Docker là một nền tảng giúp đóng gói ứng dụng cùng với môi trường của nó vào một "container" để có thể chạy đồng nhất trên nhiều hệ thống.
 ### 2. một số câu lênh docker
+
 2.1. xem image.
   docker image ls
 2.2. xem container.
