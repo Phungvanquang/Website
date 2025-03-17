@@ -15,4 +15,7 @@
   docker run -p <port>:<port> -d <image>
 #### 2.5. xoá container.
   docker rm <container_id>
+
+#### Tài Liệu Tham Khảo.
+- https://www.youtube.com/playlist?list=PLwJr0JSP7i8At14UIC-JR4r73G4hQ1CXO
   
