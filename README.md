@@ -13,3 +13,6 @@
 
 # IV. các dịch vụ xung quanh.
 ## 1.docker
+## 2. Local Storage, Session Storage và Cookie
+- https://viblo.asia/p/local-storage-session-storage-va-cookie-ORNZqN3bl0n
+
