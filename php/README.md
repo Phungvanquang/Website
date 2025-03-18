@@ -7,4 +7,4 @@
 
 ## II. cài đặt.
 ### 1. cài đặt trên Docker.
-- `ưddfasdasd`
+- `docker run -d --name php-run -h php -v "D:\File\CVE\wordpress\wordpress5.0.2:/var/www" --network www-net php:7.3-fpm`
