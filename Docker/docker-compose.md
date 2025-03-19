@@ -2,6 +2,7 @@
 ## I. Tổng Quan.
 ### 1. khái niệm.
 - Docker-compose là 1 công cụ giúp định nghĩa và chạy các ứng dụng đã container 1 cách dễ dạng. Được sử udnjg file y aml để cấu hình các dịch vụ ựng dụng của nó.
+
 ![image](https://github.com/user-attachments/assets/cf48b689-83e0-4fc5-b2ee-0f42e3bd05f7)
 ![image](https://github.com/user-attachments/assets/dccaf9fb-a5af-463d-a447-1b1496782c4b)
 ![image](https://github.com/user-attachments/assets/adc16467-8c14-4b57-bf86-90ae4f89ebaa)
