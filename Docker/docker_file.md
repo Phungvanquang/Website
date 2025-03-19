@@ -42,11 +42,10 @@ LABEL app="web-server"
 ví du : 
 Giả sử tạo một base image cho ứng dụng Node.js:
 dockerfile.
-# Dockerfile 1: Tạo base image
+####Dockerfile 1: Tạo base image
 FROM node:18
 WORKDIR /app
-
-# Tự động copy package.json và chạy npm install khi có Dockerfile mới kế thừa
+- Tự động copy package.json và chạy npm install khi có Dockerfile mới kế thừa
 ONBUILD COPY package.json /app/
 ONBUILD RUN npm install
 
