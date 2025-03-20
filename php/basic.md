@@ -102,8 +102,12 @@ hoặc cắt hết bắt đầu từ vị trí số 6.
 - if...elsecâu lệnh - thực thi một số mã nếu điều kiện là đúng và một mã khác nếu điều kiện đó là sai
 - if...elseif...elsecâu lệnh - thực thi các mã khác nhau cho hơn hai điều kiện
 - switch câu lệnh - chọn một trong nhiều khối mã để thực thi.
+![image](https://github.com/user-attachments/assets/2e09d1ff-ff99-4179-9940-f9d8628aa9fc)
+## 13. loops 
 ![image](https://github.com/user-attachments/assets/9d24251d-5272-45d5-a70e-64bad49cefbd)
 
-## 13. loops 
-![Uploading image.png…]()
-
+## 14. function.
+- tạo hàm để thực hiện 1 số tác vụ riêng.
+```function myMessage() {nội dung}```
+## 15. Array.
+- https://www.w3schools.com/php/php_arrays.asp
