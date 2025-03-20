@@ -87,7 +87,7 @@ hoặc cắt hết bắt đầu từ vị trí số 6.
 ![image](https://github.com/user-attachments/assets/3ef76910-3a8e-43c7-b3ac-a732392be707)
 ![image](https://github.com/user-attachments/assets/7ede5cde-e4c2-46db-8e28-117cada0bad8)
 ## 10. PHP magic constant.
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/af956280-0477-4c09-8cf4-50dcbe831da6)
 ## 11. Toán Tử.
 - Toán tử số học : -,+,*,/,%,**
 - Toán tử gán : x = y	,x += y,x -= y,x *= y,x /= y,x %= y
@@ -101,6 +101,9 @@ hoặc cắt hết bắt đầu từ vị trí số 6.
 - ifcâu lệnh - thực thi một số mã nếu một điều kiện là đúng
 - if...elsecâu lệnh - thực thi một số mã nếu điều kiện là đúng và một mã khác nếu điều kiện đó là sai
 - if...elseif...elsecâu lệnh - thực thi các mã khác nhau cho hơn hai điều kiện
-- switch câu lệnh - chọn một trong nhiều khối mã để thực thi
+- switch câu lệnh - chọn một trong nhiều khối mã để thực thi.
+![image](https://github.com/user-attachments/assets/9d24251d-5272-45d5-a70e-64bad49cefbd)
 
+## 13. loops 
+![Uploading image.png…]()
 
