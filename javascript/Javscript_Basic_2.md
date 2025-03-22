@@ -10,4 +10,4 @@
 ![image](https://github.com/user-attachments/assets/2a11fff7-32fc-490d-89a3-c91be70bff92)
 ![image](https://github.com/user-attachments/assets/7a6445aa-d598-4538-b357-b661ecae581b)
 ![image](https://github.com/user-attachments/assets/2f05fbc1-f07f-4b3a-9a8d-487b9e518890)
-- functionsk trong object : ![image](https://github.com/user-attachments/assets/656fd040-4672-4759-b7ad-3969df02efb2)
+- functions trong object : ![image](https://github.com/user-attachments/assets/656fd040-4672-4759-b7ad-3969df02efb2)
