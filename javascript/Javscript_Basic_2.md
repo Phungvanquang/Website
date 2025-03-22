@@ -1,4 +1,4 @@
-# Javscript_Basic_1.md
+# Javscript Basic 2
 
 # 1. Objects.
 ## 1.1. Object Properties.
