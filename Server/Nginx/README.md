@@ -673,12 +673,6 @@ If you find something which doesn't make sense, or something doesn't seem right,
 
 Before adding a pull request, please see the **[contributing guidelines](.github/CONTRIBUTING.md)**.
 
-## Code Contributors
-
-This project exists thanks to all the people who contribute.
-
-<a href="https://github.com/trimstray/nginx-admins-handbook/graphs/contributors"><img src="https://opencollective.com/nginx-admins-handbook/contributors.svg?width=890&button=false"></a>
-
 ### ToDo
 
 What needs to be done? Look at the following ToDo list:
