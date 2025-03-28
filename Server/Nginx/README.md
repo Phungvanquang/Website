@@ -1843,3 +1843,7 @@ Go back to the [Table of Contents](#table-of-contents) or read the next chapters
     <img src="https://github.com/trimstray/nginx-admins-handbook/blob/master/static/img/nginx_meme_2.png" alt="Meme" width="50%" height="50%">
   </a>
 </p>
+
+
+## Tài liệu tham khảo
+- https://github.com/azurespheredev/the-book-of-secret-knowledge
