@@ -8,7 +8,7 @@
 
 ## 3.Một số chính sách của CSP.
 
-# Các chỉ thị này xác định các nguồn được ủy quyền cho các tài nguyên HTML khác nhau
+### Các chỉ thị này xác định các nguồn được ủy quyền cho các tài nguyên HTML khác nhau
 
 - default-src : Nguồn mặc định nếu không có chỉ thị nào khác được xác định.
 - script-src : Nguồn hợp lệ cho các tập lệnh JavaScript và WebAssembly.
@@ -18,7 +18,7 @@
 - style-src : Nguồn hợp lệ cho bảng định kiểu.
 - font-src : Nguồn phông chữ hợp lệ
 
-# Một số chỉ thị không liên quan đến việc khôi phục tài nguyên nhưng bổ sung thêm các biện pháp kiểm soát bảo mật
+### Một số chỉ thị không liên quan đến việc khôi phục tài nguyên nhưng bổ sung thêm các biện pháp kiểm soát bảo mật
 
 - sandbox : Kích hoạt một hộp cát để cô lập nội dung nhất định (như đối với <iframe>).
 - require-trusted-types-for : Áp dụng 'các loại đáng tin cậy' để hạn chế các cuộc tấn công XSS dựa trên DOM .
