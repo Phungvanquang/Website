@@ -9,11 +9,11 @@
 
 *[1.PHP]()*
 
-**[2.Java]()**
+*[2.Java]()*
 
-**[3.Node.js]()**
+*[3.Node.js]()*
 
-**[4.Python]()**
+*[4.Python]()*
 
 ## III. Cơ Sở Dữ Liệu.
 ## 1.mysql.
