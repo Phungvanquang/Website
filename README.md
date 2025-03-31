@@ -12,9 +12,9 @@
 
 ## II.Backend.
 
-*[1.PHP]()*
+*[1.PHP](https://github.com/Phungvanquang/Website/tree/main/php)*
 
-*[2.Java]()*
+*[2.Java](https://github.com/Phungvanquang/Website/tree/main/JAVA)*
 
 *[3.Node.js]()*
 
