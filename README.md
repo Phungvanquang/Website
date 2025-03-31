@@ -1,13 +1,13 @@
 # WEBSITE
 
-# I. Fontend.
+## I. Fontend.
 1.html
 2.CSS
 3.javascript
 4.ReactJS
-# II.Backend.
+## II.Backend.
 
-**[1.PHP]()**
+*[1.PHP]()*
 
 **[2.Java]()**
 
@@ -15,11 +15,11 @@
 
 **[4.Python]()**
 
-# III. Cơ Sở Dữ Liệu.
+## III. Cơ Sở Dữ Liệu.
 ## 1.mysql.
 ## 2. Nosql.
 
-# IV. các dịch vụ xung quanh.
+## IV. các dịch vụ xung quanh.
 ## 1. Docker
 ## 2. Local Storage, Session Storage và Cookie
 - https://viblo.asia/p/local-storage-session-storage-va-cookie-ORNZqN3bl0n
