@@ -25,7 +25,10 @@
 *[1.mysql]()*
 
 *[2. Nosql]()*
-## IV. các dịch vụ xung quanh.
+## IV. Framework.
+
+*[Angular]()*
+## V. các dịch vụ xung quanh.
 
 *[1. Docker]()*
 
@@ -37,5 +40,7 @@
 ### Tài liệu tham khảo
 - https://viblo.asia/p/local-storage-session-storage-va-cookie-ORNZqN3bl0n
 
-
+*[]()*
+*[]()*
+*[]()*
 
