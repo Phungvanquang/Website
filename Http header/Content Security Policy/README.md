@@ -14,6 +14,7 @@
 + img-src : Nguồn hợp lệ cho <object>, <embed>và <applet>.
 + style-src : Nguồn hợp lệ cho bảng định kiểu.
 + font-src : Nguồn phông chữ hợp lệ.
+
 - Một số chỉ thị không liên quan đến việc khôi phục tài nguyên nhưng bổ sung thêm các biện pháp kiểm soát bảo mật:
 + sandbox : Kích hoạt một hộp cát để cô lập nội dung nhất định (như đối với <iframe>).
 + require-trusted-types-for : Áp dụng 'các loại đáng tin cậy' để hạn chế các cuộc tấn công XSS dựa trên DOM .
