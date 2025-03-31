@@ -19,7 +19,8 @@
 - 
 ## 5. Những cách thao túng.
 ![image](https://github.com/user-attachments/assets/5b32b046-d715-418e-ab47-802567e293d8)
-- phương pháp cấp cao để xác định các trang web dễ bị tấn công tiêu đề HTTP Host và trình bày cách bạn có thể khai thác điều này cho các loại tấn công sau:
+
+\- phương pháp cấp cao để xác định các trang web dễ bị tấn công tiêu đề HTTP Host và trình bày cách bạn có thể khai thác điều này cho các loại tấn công sau:
 + Đặt lại mật khẩu đầu độc LABS
 + Đầu độc bộ nhớ đệm web LABS
 + Khai thác các lỗ hổng cổ điển ở phía máy chủ
