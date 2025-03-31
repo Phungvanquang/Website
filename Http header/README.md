@@ -50,6 +50,6 @@
 ### [47.Sec-GPC]()
 ### [48.Save-Data]()
 ### [49.X-Csrf-Token]()
-### [50Proxy-Connection]()
+### [50.Proxy-Connection]()
 ### [51.X-Wap-Profile]()
 ### [52.X-ATT-DeviceId]()
