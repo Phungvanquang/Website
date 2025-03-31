@@ -10,23 +10,23 @@
 
 # Các chỉ thị này xác định các nguồn được ủy quyền cho các tài nguyên HTML khác nhau
 
-+ default-src : Nguồn mặc định nếu không có chỉ thị nào khác được xác định.
-+ script-src : Nguồn hợp lệ cho các tập lệnh JavaScript và WebAssembly.
-+ script-src-elem : Nguồn hợp lệ cho <script>thẻ. Nếu không có, script-srcsẽ được sử dụng.
-+ frame-src : Nguồn hợp lệ cho <frame>và <iframe>.
-+ img-src : Nguồn hợp lệ cho <object>, <embed>và <applet>.
-+ style-src : Nguồn hợp lệ cho bảng định kiểu.
-+ font-src : Nguồn phông chữ hợp lệ
+- default-src : Nguồn mặc định nếu không có chỉ thị nào khác được xác định.
+- script-src : Nguồn hợp lệ cho các tập lệnh JavaScript và WebAssembly.
+- script-src-elem : Nguồn hợp lệ cho <script>thẻ. Nếu không có, script-srcsẽ được sử dụng.
+- frame-src : Nguồn hợp lệ cho <frame>và <iframe>.
+- img-src : Nguồn hợp lệ cho <object>, <embed>và <applet>.
+- style-src : Nguồn hợp lệ cho bảng định kiểu.
+- font-src : Nguồn phông chữ hợp lệ
 
 # Một số chỉ thị không liên quan đến việc khôi phục tài nguyên nhưng bổ sung thêm các biện pháp kiểm soát bảo mật
 
-+ sandbox : Kích hoạt một hộp cát để cô lập nội dung nhất định (như đối với <iframe>).
-+ require-trusted-types-for : Áp dụng 'các loại đáng tin cậy' để hạn chế các cuộc tấn công XSS dựa trên DOM .
-+ trusted-types : Xác định danh sách trắng 'Loại đáng tin cậy' để ngăn chặn việc thực thi dữ liệu giả mạo.
-+ upgrade-insecure-requests : Tự động chuyển đổi yêu cầu HTTP sang HTTPS. Hữu ích cho việc hiện đại hóa một trang web có nhiều URL cũ.
-+ frame-ancestors : Hạn chế các nguồn được phép cho các phần tử <frame>, <iframe>, <object>, <embed>và <applet>.
-+ form-action : Kiểm soát các URL được phép gửi biểu mẫu.
-+ base-uri : Hạn chế các nguồn hợp lệ cho <base>thẻ.
+- sandbox : Kích hoạt một hộp cát để cô lập nội dung nhất định (như đối với <iframe>).
+- require-trusted-types-for : Áp dụng 'các loại đáng tin cậy' để hạn chế các cuộc tấn công XSS dựa trên DOM .
+- trusted-types : Xác định danh sách trắng 'Loại đáng tin cậy' để ngăn chặn việc thực thi dữ liệu giả mạo.
+- upgrade-insecure-requests : Tự động chuyển đổi yêu cầu HTTP sang HTTPS. Hữu ích cho việc hiện đại hóa một trang web có nhiều URL cũ.
+- frame-ancestors : Hạn chế các nguồn được phép cho các phần tử <frame>, <iframe>, <object>, <embed>và <applet>.
+- form-action : Kiểm soát các URL được phép gửi biểu mẫu.
+- base-uri : Hạn chế các nguồn hợp lệ cho <base>thẻ.
 
 ## 4.bỏ qua các chính sách CSP.
 - Xác thực JavaScript không an toàn trong dòng : ```Content-Security-Policy: default-src 'none'; script-src 'unsafe-inline';```
