@@ -20,13 +20,13 @@
 
 ### Một số chỉ thị không liên quan đến việc khôi phục tài nguyên nhưng bổ sung thêm các biện pháp kiểm soát bảo mật
 
-- sandbox : Kích hoạt một hộp cát để cô lập nội dung nhất định (như đối với <iframe>).
+- sandbox : Kích hoạt một hộp cát để cô lập nội dung nhất định (như đối với ```<iframe>```).
 - require-trusted-types-for : Áp dụng 'các loại đáng tin cậy' để hạn chế các cuộc tấn công XSS dựa trên DOM .
 - trusted-types : Xác định danh sách trắng 'Loại đáng tin cậy' để ngăn chặn việc thực thi dữ liệu giả mạo.
 - upgrade-insecure-requests : Tự động chuyển đổi yêu cầu HTTP sang HTTPS. Hữu ích cho việc hiện đại hóa một trang web có nhiều URL cũ.
-- frame-ancestors : Hạn chế các nguồn được phép cho các phần tử <frame>, <iframe>, <object>, <embed>và <applet>.
+- frame-ancestors : Hạn chế các nguồn được phép cho các phần tử ```<frame>```, ```<iframe>```, ```<object>```, ```<embed>``` và ```<applet>```
 - form-action : Kiểm soát các URL được phép gửi biểu mẫu.
-- base-uri : Hạn chế các nguồn hợp lệ cho <base>thẻ.
+- base-uri : Hạn chế các nguồn hợp lệ cho ```<base>``` thẻ.
 
 ## 4.bỏ qua các chính sách CSP.
 - Xác thực JavaScript không an toàn trong dòng : ```Content-Security-Policy: default-src 'none'; script-src 'unsafe-inline';```
