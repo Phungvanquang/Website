@@ -5,7 +5,7 @@
 - Content Security Policy (CSP) là biện pháp bảo mật thiết yếu để bảo vệ các ứng dụng web khỏi một số loại tấn công nhất định. Bằng cách xác định các quy tắc nghiêm ngặt về tài nguyên mà trình duyệt có thể tải, CSP hạn chế các vectơ tấn công tiềm ẩn.
 - Content Security Policy (CSP) biện pháp bảo vệ bổ sung giúp phát hiện và hạn chế một số cuộc tấn công từ phía máy khách, chẳng hạn như Cross Site Scripting (XSS) , clickjacking và chèn nội dung.
 ## 2.hoạt động CSP.
-
+- CSP (hay Content-Security-Policy) thực chất là một header nằm trên request khi được gửi đến một server nào đó.Để enable CSP, chúng ta chỉ cần cấu hình cho server của chúng ta trả về Content-Security-Policy HTTP headers.Để xem danh sách các thẻ policy đầy đủ bạn có thể xem tại Content-Security-Policy header Một cách khác chúng ta có thể sử dụng thông qua thẻ <meta>. Ví dụ: <meta http-equiv=”Content-Security-Policy” content=”default-src ‘self’; img-src https://*; child-src ‘none’;”>
 ## 3.Một số chính sách của CSP.
 
 ### Các chỉ thị này xác định các nguồn được ủy quyền cho các tài nguyên HTML khác nhau.
