@@ -45,3 +45,7 @@
 ```https://accounts.google.com/o/oauth2/revoke;```**
 - Bỏ qua CSP thông qua việc tải tệp lên : ```Content-Security-Policy: default-src 'self'```
   + payload : ```<script src="/upload/evil-script.js"></script>```
+
+### Tài Liệu tham khảo.
+- https://websecblog.com/vulns/google-csp-evaluator/
+  
