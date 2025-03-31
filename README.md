@@ -1,18 +1,19 @@
 # WEBSITE
-# I.Backend.
 
-**[1. PHP]()**
+# I. Fontend.
+1.html
+2.CSS
+3.javascript
+4.ReactJS
+# II.Backend.
 
-**[2. Java]()**
+**[1.PHP]()**
 
-**[3. Node.js]()**
+**[2.Java]()**
 
-**[4. Python]()**
-# II. Fontend.
-## 1.html
-## 2.CSS
-## 3.javascript
-## 4.ReactJS
+**[3.Node.js]()**
+
+**[4.Python]()**
 
 # III. Cơ Sở Dữ Liệu.
 ## 1.mysql.
