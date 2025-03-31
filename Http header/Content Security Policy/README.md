@@ -12,9 +12,9 @@
 
 - ```default-src```  Nguồn mặc định nếu không có chỉ thị nào khác được xác định.
 - ```script-src```  Nguồn hợp lệ cho các tập lệnh JavaScript và WebAssembly.
-- ```script-src-elem```  Nguồn hợp lệ cho <script>thẻ. Nếu không có, script-srcsẽ được sử dụng.
-- ```frame-src``` Nguồn hợp lệ cho <frame>và <iframe>.
-- ```img-src```  Nguồn hợp lệ cho <object>, <embed>và <applet>.
+- ```script-src-elem```  Nguồn hợp lệ cho ```<script>```thẻ. Nếu không có, script-srcsẽ được sử dụng.
+- ```frame-src``` Nguồn hợp lệ cho ```<frame>```và ```<iframe>```.
+- ```img-src```  Nguồn hợp lệ cho ```<object>```, ```<embed>```và ```<applet>```.
 - ```style-src```  Nguồn hợp lệ cho bảng định kiểu.
 - ```font-src```  Nguồn phông chữ hợp lệ
 
