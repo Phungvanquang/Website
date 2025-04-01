@@ -34,7 +34,7 @@
 
 *[2. Local Storage, Session Storage và Cookie]()*
 
-*[3. DevTools]()*
+*[3. DevTools](https://github.com/Phungvanquang/Website/blob/main/DevTools/README.md)*
 
 *[4. Design Pattern]()*
 
