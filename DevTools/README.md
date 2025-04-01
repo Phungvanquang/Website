@@ -41,6 +41,7 @@ F12: Mở DevTools.
     + Nhấp chuột phải vào bất kỳ phần tử nào trên trang web.
     + Chọn "Kiểm tra" (Inspect) hoặc "Kiểm tra phần tử" (Inspect Element). Điều này sẽ mở DevTools và chọn phần tử bạn đã nhấp chuột phải.
 - Vào dấu 3 chấm bền góc trên màn hình --> More tools --> Developer tools.
+![image](https://github.com/user-attachments/assets/b4ea4ba4-6f4c-4ba7-8b24-4da40347cef5)
 ## 5. Sử dụng các tab:
 - Elements (Phần tử):
     + Xem và chỉnh sửa HTML và CSS.
