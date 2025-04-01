@@ -1,6 +1,6 @@
 # Docker 
 
-![alt text](image.png)
+
 # I. Tổng quan.
 ## 1. khái niệm. 
 - `Docker` là một nền tảng mở để phát triển, vận chuyển và chạy các ứng dụng. Docker cho phép bạn tách biệt các ứng dụng của mình khỏi cơ sở hạ tầng để bạn có thể phân phối phần mềm nhanh chóng. Với Docker, bạn có thể quản lý cơ sở hạ tầng của mình theo cùng cách bạn quản lý các ứng dụng của mình. Bằng cách tận dụng các phương pháp của Docker để vận chuyển, thử nghiệm và triển khai mã, bạn có thể giảm đáng kể độ trễ giữa việc viết mã và chạy mã trong sản xuất.
@@ -8,7 +8,7 @@
 - Bằng cách tận dụng các phương pháp của Docker để vận chuyển, thử nghiệm và triển khai mã nhanh chóng, bạn có thể giảm đáng kể độ trễ giữa việc viết mã và chạy mã trong sản xuất.
 ### 2. Kiến trúc Docker
 - Docker sử dụng kiến ​​trúc máy khách-máy chủ. Máy khách Docker giao tiếp với daemon Docker, thực hiện nhiệm vụ nặng nề là xây dựng, chạy và phân phối các container Docker của bạn. Máy khách Docker và daemon có thể chạy trên cùng một hệ thống hoặc bạn có thể kết nối máy khách Docker với daemon Docker từ xa. Máy khách Docker và daemon giao tiếp bằng REST API, qua socket UNIX hoặc giao diện mạng. Một máy khách Docker khác là Docker Compose, cho phép bạn làm việc với các ứng dụng bao gồm một tập hợp các container.
-![alt text](image-1.png)
+
 ### 3. images
 - Image là một mẫu chỉ đọc có hướng dẫn để tạo một container Docker. Thường thì một image dựa trên một image khác, với một số tùy chỉnh bổ sung. Ví dụ, bạn có thể xây dựng một image dựa trên ubuntu image đó, nhưng cài đặt máy chủ web Apache và ứng dụng của bạn, cũng như các chi tiết cấu hình cần thiết để chạy ứng dụng của bạn.
 - Bạn có thể tạo hình ảnh của riêng mình hoặc bạn chỉ có thể sử dụng những hình ảnh do người khác tạo ra và được xuất bản trong sổ đăng ký. Để xây dựng hình ảnh của riêng mình, bạn tạo Dockerfile với cú pháp đơn giản để xác định các bước cần thiết để tạo hình ảnh và chạy hình ảnh đó. Mỗi lệnh trong Dockerfile tạo ra một lớp trong hình ảnh. Khi bạn thay đổi Dockerfile và xây dựng lại hình ảnh, chỉ những lớp đã thay đổi mới được xây dựng lại. Đây là một phần tạo nên hình ảnh nhẹ, nhỏ và nhanh như vậy khi so sánh với các công nghệ ảo hóa khác.
