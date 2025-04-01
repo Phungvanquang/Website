@@ -45,8 +45,6 @@
 
 *[1. Docker](https://github.com/Phungvanquang/Website/tree/main/Docker)*
 
-*[2. Local Storage, Session Storage và Cookie]()*
-
 *[3. DevTools](https://github.com/Phungvanquang/Website/blob/main/DevTools)*
 
 *[4. Design Pattern]()*
