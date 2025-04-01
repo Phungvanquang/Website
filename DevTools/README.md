@@ -72,3 +72,4 @@ F12: Mở DevTools.
 - https://developer.chrome.com/docs/devtools?hl=vi
 - https://github.com/ChromeDevTools/devtools-frontend
 - https://200lab.io/blog/gioi-thieu-cong-cu-devtool-trong-cac-trinh-duyet
+- https://developer.chrome.com/docs/devtools/tips
