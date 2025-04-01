@@ -1,5 +1,5 @@
 # Services.
-Local Storage, Session Storage và Cookie
+
 **[1.Local Storage]()**
 
 
