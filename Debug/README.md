@@ -1,5 +1,8 @@
 # Debug
-# I. 
+# I. XDEBUG (PHP).
+# II. Java Debugger (JAVA).
+# III. Python Debugger (PYTHON).
+
 
 
 ### Tài liệu tham khảo
