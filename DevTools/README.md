@@ -43,29 +43,30 @@ F12: Mở DevTools.
 - Vào dấu 3 chấm bền góc trên màn hình --> More tools --> Developer tools.
 ![image](https://github.com/user-attachments/assets/b4ea4ba4-6f4c-4ba7-8b24-4da40347cef5)
 ## 5. Sử dụng các tab:
-- [Elements (Phần tử):]()
+- [Elements (Phần tử):](https://github.com/Phungvanquang/Website/tree/main/DevTools/Elements)
     + Xem và chỉnh sửa HTML và CSS.
     + Kiểm tra cấu trúc DOM của trang web.
-- [Console (Bảng điều khiển):]()
+- [Console (Bảng điều khiển):](https://github.com/Phungvanquang/Website/tree/main/DevTools/Console)
     + Xem các thông báo lỗi và cảnh báo JavaScript.
     + Chạy các lệnh JavaScript trực tiếp.
-- [Sources (Nguồn):]()
+- [Sources (Nguồn):](https://github.com/Phungvanquang/Website/tree/main/DevTools/Sources)
     + Xem và gỡ lỗi mã JavaScript.
     + Đặt điểm dừng và theo dõi luồng thực thi.
-- [Network (Mạng):]()
+- [Network (Mạng):](https://github.com/Phungvanquang/Website/tree/main/DevTools/Network)
     + Kiểm tra các yêu cầu mạng và phản hồi.
     + Phân tích thời gian tải và hiệu suất mạng.
-- [Performance (Hiệu suất):]()
+- [Performance (Hiệu suất):](https://github.com/Phungvanquang/Website/tree/main/DevTools/Performance)
     + Ghi lại và phân tích hiệu suất tải trang.
     + Xác định các vấn đề về hiệu suất và tối ưu hóa.
-- [Application (Ứng dụng):]()
+- [Application (Ứng dụng):](https://github.com/Phungvanquang/Website/tree/main/DevTools/Application)
     + Kiểm tra bộ nhớ cục bộ, cookie và bộ nhớ đệm.
     + Gỡ lỗi các ứng dụng web tiến bộ (PWA).
-- [Security (Bảo mật):]()
+- [Security (Bảo mật):](https://github.com/Phungvanquang/Website/tree/main/DevTools/Security)
     + Kiểm tra tính bảo mật của website như https, chứng chỉ bảo mật.
-- [Lighthouse:]()
+- [Lighthouse:](https://github.com/Phungvanquang/Website/tree/main/DevTools/Lighthouse)
     + Đánh giá hiệu suất, khả năng truy cập, các phương pháp hay nhất và SEO của trang web.
-- [Recorder: Recorder là một công cụ cho phép bạn ghi lại và phát lại các tương tác của người dùng trên trang web. Điều này rất hữu ích cho việc.
+- [Recorder:](https://github.com/Phungvanquang/Website/tree/main/DevTools/Recorder)
+    + Recorder là một công cụ cho phép bạn ghi lại và phát lại các tương tác của người dùng trên trang web. Điều này rất hữu ích cho việc.
 
 ### Tài liệu tham khảo.
 - https://viblo.asia/p/tim-hieu-ve-chrome-devtools-phan-1-3Q75wpqeKWb
