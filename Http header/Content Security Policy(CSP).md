@@ -48,4 +48,5 @@
 
 ### Tài Liệu tham khảo.
 - https://websecblog.com/vulns/google-csp-evaluator/
+- https://medium.com/@vikramroot/part-2-everything-you-need-to-know-about-browser-security-policies-csp-cookie-attributes-etc-3ea98f737b3a
   
