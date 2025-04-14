@@ -18,7 +18,7 @@
 
 **[3.Node.js](https://github.com/Phungvanquang/Website/tree/main/node)**
 
-**[4.Python]()*
+**[4.Python]()**
 
 **[5.Elixir]()**
 
