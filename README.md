@@ -20,6 +20,8 @@
 
 **[4.Python]()*
 
+**[5.Elixir]()**
+
 ## III. Cơ Sở Dữ Liệu.
 
 **[1.mysql]()**
