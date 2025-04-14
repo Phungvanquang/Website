@@ -13,9 +13,9 @@
 
 **[6.Authorization Code]()**
 
-**[]()**
+**[7.Data race]()**
 
-**[]()**
+**[8.Race condition]()**
 
 **[]()**
 
