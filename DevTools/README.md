@@ -69,6 +69,7 @@ F12: Mở DevTools.
     + Recorder là một công cụ cho phép bạn ghi lại và phát lại các tương tác của người dùng trên trang web. Điều này rất hữu ích cho việc.
 
 ### Tài liệu tham khảo.
+- https://viblo.asia/p/chrome-devtools-console-tool-p1-3Q75w90JZWb
 - https://viblo.asia/p/tim-hieu-ve-chrome-devtools-phan-1-3Q75wpqeKWb
 - https://developer.chrome.com/docs/devtools?hl=vi
 - https://github.com/ChromeDevTools/devtools-frontend
