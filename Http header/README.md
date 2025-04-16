@@ -53,3 +53,5 @@
 ### [50.Proxy-Connection]()
 ### [51.X-Wap-Profile]()
 ### [52.X-ATT-DeviceId]()
+
+II. Các trường phản hồi chuẩn.
