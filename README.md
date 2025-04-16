@@ -44,21 +44,41 @@
 **[7.Ruby on Rails(Ruby)](https://github.com/Phungvanquang/Website/tree/main/Framework/Ruby%20on%20Rails(Ruby))**
 ## V. Services.
 
-**[1.]()**
+**[1.Local Storage]()**
 
-**[2.]()**
+**[2.Session Storage]()**
 
-**[3.]()**
+**[3.Cookie]()**
 
-**[4.]()**
+**[4.Escape Character]()**
 
-**[5.]()**
+**[5.Authentication]()**
 
-**[6.]()**
+**[6.Authorization Code]()**
 
-**[7.]()**
+**[7.Data race]()**
 
-**[8.]()**
+**[8.Race condition ]()**
+
+**[9.Unicode escaped]()**
+
+**[10.CSRF Token]()**
+
+**[]()**
+
+**[]()**
+
+**[]()**
+
+**[]()**
+
+**[]()**
+
+**[]()**
+
+**[]()**
+
+**[]()**
 
 ## VI. các dịch vụ xung quanh.
 
