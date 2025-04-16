@@ -22,7 +22,7 @@
 
 **[5.Elixir]()**
 
-## III. Cơ Sở Dữ Liệu.
+## III. Database.
 
 **[1.mysql]()**
 
@@ -42,8 +42,9 @@
 **[6.Spring(Java)](https://github.com/Phungvanquang/Website/tree/main/Framework/Spring(Java))**
 
 **[7.Ruby on Rails(Ruby)](https://github.com/Phungvanquang/Website/tree/main/Framework/Ruby%20on%20Rails(Ruby))**
+## V. Services.
 
-## V. các dịch vụ xung quanh.
+## VI. các dịch vụ xung quanh.
 
 **[1. Docker](https://github.com/Phungvanquang/Website/tree/main/Docker)**
 
