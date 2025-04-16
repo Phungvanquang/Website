@@ -17,7 +17,7 @@
 
 **[8.Race condition]() : **https://viblo.asia/p/010-nham-tuong-ve-data-race-va-race-condition-bWrZnVG9Zxw****
 
-**[]()**
+**[8.Unicode escaped]()**
 
 **[]()**
 
