@@ -60,6 +60,24 @@
 ### [3.]()
 ### [4.]()
 ### [5.Access-Control-Allow-Origin]()
+Date
+Content-Type
+Content-Length
+X-Request-Id
+Vary
+Cache-Control
+Expires
+Pragma
+Strict-Transport-Security
+Report-To
+Reporting-Endpoints
+X-Content-Type-Options
+X-Xss-Protection
+Content-Security-Policy
+X-Frame-Options
+Access-Control-Allow-Credentials
+Access-Control-Allow-Origin
+Access-Control-Expose-Headers
 ### []()
 ### []()
 ### []()
