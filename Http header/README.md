@@ -55,29 +55,83 @@
 ### [52.X-ATT-DeviceId]()
 
 # [II. Các trường phản hồi chuẩn.]()
-### [1.]()
-### [2.]()
-### [3.]()
-### [4.]()
-### [5.Access-Control-Allow-Origin]()
-Date
+
+Accept
+Access-Control-Allow-Origin,
+Access-Control-Allow-Credentials,
+Access-Control-Expose-Headers,
+Access-Control-Max-Age,
+Access-Control-Allow-Methods,
+Access-Control-Allow-Headers	
+Accept-Patch	
+Accept-Ranges	
+Age	
+Allow	
+Alt-Svc[49]	
+Cache-Control	
+Connection	
+Connection
+Content-Disposition[51]	
+Content-Encoding	
+Content-Language	
+Content-Length	
+Content-Location	
+Content-MD5	
+Content-Range	
 Content-Type
-Content-Length
-X-Request-Id
-Vary
-Cache-Control
+Date	
+Delta-Base	
+ETag	
 Expires
-Pragma
-Strict-Transport-Security
-Report-To
-Reporting-Endpoints
-X-Content-Type-Options
-X-Xss-Protection
-Content-Security-Policy
+IM	
+Last-Modified	
+Link	
+Location		    
+P3P	
+Pragma	
+Preference-Applied	
+Proxy-Authenticate	 
+Public-Key-Pins
+Retry-After	
+Server	
+Set-Cookie	
+Strict-Transport-Security	
+Trailer	
+Transfer-Encoding
+Tk	
+Upgrade
+Vary	
+Permanent	
+Via	
+Warning	
+WWW-Authenticate	                     
 X-Frame-Options
-Access-Control-Allow-Credentials
-Access-Control-Allow-Origin
-Access-Control-Expose-Headers
+X-Host
+X-Forwarded-Server
+X-HTTP-Host-Override
+Forwarded
+
+
+Content-Security-Policy
+X-Content-Security-Policy
+X-WebKit-CSP
+Expect-CT
+NEL
+Permissions-Policy
+Report-To
+Status	
+Timing-Allow-Origin	
+Timing-Allow-Origin
+X-Content-Duration
+X-Content-Type-Options
+X-Powered-By
+X-Redirect-By
+X-Redirect-By
+X-Request-ID, X-Correlation-ID
+X-UA-Compatible
+X-UA-Compatible
+X-UA-Compatible
+X-XSS-Protection
 ### []()
 ### []()
 ### []()
