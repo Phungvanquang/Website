@@ -24,8 +24,9 @@
 **[10.Time-of-check to time-of-use]()**
 
 **[11.Web Cache](https://github.com/Phungvanquang/Website/blob/main/Services/Web%20Cache.pdf)**
-**[]()**
-**[]()**
+
+**[12.Subdomain]()**
+**[13. SSL/TLS]()**
 **[]()**
 **[]()**
 **[]()**
