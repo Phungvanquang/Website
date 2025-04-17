@@ -1,34 +1,34 @@
 # HTTP headers 
 
 # [I. Các trường yêu cầu chuẩn]()
-  ### [1.Content Security Policy](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Content%20Security%20Policy(CSP).md)
-  ### [2.Host](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Host.md)
-  ### [3.Cookie]()
-  ### [4.Content-Length]()
-  ### [5.X-Origin]()
-  ### [6.Origin]()
-  ### [7.Sec-Ch-Ua-Platform]()
-  ### [8.Sec-Ch-Ua-Mobile]()
-  ### [9.User-Agent]()
-  ### [10.Content-Type]()
-  ### [11.Accept]()
-  ### [12.Authorization]()
-  ### [13.Referer]()
-  ### [14.Accept-Encoding]()
-  ### [15.Accept-Language]()
-  ### [16.Priority]()
-  ### [17.Sec-Ch-Ua]()
-  ### [18.Rtt]()
-  ### [19.Sec-Ch-Ua-Arch]()
-  ### [20.Sec-Ch-Ua-Full-Version]()
-  ### [21.Sec-Ch-Ua-Platform-Version]()
-  ### [22.Downlink]()
-  ### [23.Sec-Ch-Ua-Full-Version-List]()
-  ### [24.Sec-Ch-Ua-Bitness]()
-  ### [25.Sec-Ch-Ua-Model]()
-  ### [26.Sec-Ch-Prefers-Color-Scheme]()
-  ### [27.Sec-Ch-Prefers-Color-Scheme]()
-  ### [28.X-Client-Data]()
+### [1.Content Security Policy](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Content%20Security%20Policy(CSP).md)
+### [2.Host](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Host.md)
+### [3.Cookie]()
+### [4.Content-Length]()
+### [5.X-Origin]()
+### [6.Origin]()
+### [7.Sec-Ch-Ua-Platform]()
+### [8.Sec-Ch-Ua-Mobile]()
+### [9.User-Agent]()
+### [10.Content-Type]()
+### [11.Accept]()
+### [12.Authorization]()
+### [13.Referer]()
+### [14.Accept-Encoding]()
+### [15.Accept-Language]()
+### [16.Priority]()
+### [17.Sec-Ch-Ua]()
+### [18.Rtt]()
+### [19.Sec-Ch-Ua-Arch]()
+### [20.Sec-Ch-Ua-Full-Version]()
+### [21.Sec-Ch-Ua-Platform-Version]()
+### [22.Downlink]()
+### [23.Sec-Ch-Ua-Full-Version-List]()
+### [24.Sec-Ch-Ua-Bitness]()
+### [25.Sec-Ch-Ua-Model]()
+### [26.Sec-Ch-Prefers-Color-Scheme]()
+### [27.Sec-Ch-Prefers-Color-Scheme]()
+### [28.X-Client-Data]()
 ### [29.Sec-Fetch-Site]()
 ### [30.Sec-Fetch-Mode]()
 ### [31.Sec-Fetch-Dest]()
@@ -56,128 +56,78 @@
 
 # [II. Các trường phản hồi chuẩn.]()
 
-Accept
-Access-Control-Allow-Origin,
-Access-Control-Allow-Credentials,
-Access-Control-Expose-Headers,
-Access-Control-Max-Age,
-Access-Control-Allow-Methods,
-Access-Control-Allow-Headers	
-Accept-Patch	
-Accept-Ranges	
-Age	
-Allow	
-Alt-Svc[49]	
-Cache-Control	
-Connection	
-Connection
-Content-Disposition[51]	
-Content-Encoding	
-Content-Language	
-Content-Length	
-Content-Location	
-Content-MD5	
-Content-Range	
-Content-Type
-Date	
-Delta-Base	
-ETag	
-Expires
-IM	
-Last-Modified	
-Link	
-Location		    
-P3P	
-Pragma	
-Preference-Applied	
-Proxy-Authenticate	 
-Public-Key-Pins
-Retry-After	
-Server	
-Set-Cookie	
-Strict-Transport-Security	
-Trailer	
-Transfer-Encoding
-Tk	
-Upgrade
-Vary	
-Permanent	
-Via	
-Warning	
-WWW-Authenticate	                     
-X-Frame-Options
-X-Host
-X-Forwarded-Server
-X-HTTP-Host-Override
-Forwarded
+### [Accept]()
+### [Access-Control-Allow-Origin]()
+### [Access-Control-Allow-Credentials]()
+### [Access-Control-Expose-Headers]()
+### [Access-Control-Max-Age]()
+### [Access-Control-Allow-Methods]()
+### [Access-Control-Allow-Headers]()
+### [Accept-Patch]()
+### [Accept-Ranges]()
+### [Age]()
+### [Allow]()
+### [Alt-Svc]()
+### [Cache-Control]()
+### [Connection]()
+### [Connection]()
+### [Content-Disposition]()
+### [Content-Encoding]()
+### [Content-Language]()
+### [Content-Length]()
+### [Content-Location]()
+### [Content-MD5]()
+### [Content-Range]()
+### [Content-Type]()
+### [Date]()
+### [Delta-Base]()
+### [ETag]()	
+### [Expires]()
+### [IM]()
+### [Last-Modified]()
+### [Link]()
+### [Location]()   
+### [P3P]()
+### [Pragma]()
+### [Preference-Applied]()
+### [Proxy-Authenticate]()	 
+### [Public-Key-Pins]()
+### [Retry-After]()
+### [Server]()
+### [Set-Cookie]()
+### [Strict-Transport-Security]()
+### [Trailer]()	
+### [Transfer-Encoding]()
+### [Tk]()
+### [Upgrade]()
+### [Vary]()
+### [Permanent]()
+### [Via]()
+### [Warning]()
+### [WWW-Authenticate]()                      
+### [X-Frame-Options]()
+### [X-Host]()
+### [X-Forwarded-Server]()
+### [X-HTTP-Host-Override]()
+### [Forwarded]()
+### [Content-Security-Policy]()
+### [X-Content-Security-Policy]()
+### [X-WebKit-CSP]()
+### [Expect-CT]()
+### [NEL]()
+### [Permissions-Policy]()
+### [Report-To]()
+### [Status]()
+### [Timing-Allow-Origin]()
+### [Timing-Allow-Origin]()
+### [X-Content-Duration]()
+### [X-Content-Type-Options]()
+### [X-Powered-By]()
+### [X-Redirect-By]()
+### [X-Redirect-By]()
+### [X-Request-ID, X-Correlation-ID]()
+### [X-UA-Compatible]()
+### [X-UA-Compatible]()
+### [X-UA-Compatible]()
+### [X-XSS-Protection]()
 
-
-Content-Security-Policy
-X-Content-Security-Policy
-X-WebKit-CSP
-Expect-CT
-NEL
-Permissions-Policy
-Report-To
-Status	
-Timing-Allow-Origin	
-Timing-Allow-Origin
-X-Content-Duration
-X-Content-Type-Options
-X-Powered-By
-X-Redirect-By
-X-Redirect-By
-X-Request-ID, X-Correlation-ID
-X-UA-Compatible
-X-UA-Compatible
-X-UA-Compatible
-X-XSS-Protection
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
-### []()
