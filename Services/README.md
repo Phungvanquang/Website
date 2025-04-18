@@ -9,7 +9,7 @@
 
 **[4.Escape Character](https://github.com/Phungvanquang/Website/blob/main/Services/Escape%20Character.md)**
 
-**[5.Authentication]()**
+**[5.Authentication](https://github.com/Phungvanquang/Website/blob/main/Services/Authentication.pdf)**
 
 **[6.Authorization Code]()**
 
