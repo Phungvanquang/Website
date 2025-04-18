@@ -11,7 +11,7 @@
 
 **[5.Authentication](https://github.com/Phungvanquang/Website/blob/main/Services/Authentication.pdf)**
 
-**[6.Authorization Code]()**
+**[6.Authorization Code](https://github.com/Phungvanquang/Website/blob/main/Services/Authorization.pdf)**
 
 **[7.Data race]()**
 
