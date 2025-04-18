@@ -18,7 +18,9 @@
 ## 4. Mục đích.
 - Session management
 - Personalization
-- Tracking 
+- Tracking
+## 5. http heder.
+`Cookie: <danh-sách-cookie>`
 ## 5. Những cách thao túng.
 - https://medium.com/@vikramroot/part-2-everything-you-need-to-know-about-browser-security-policies-csp-cookie-attributes-etc-3ea98f737b3a
 - 
