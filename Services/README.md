@@ -19,7 +19,7 @@
 
 **[8.Unicode escaped]()**
 
-**[9.CSRF Token]()**
+**[9.CSRF Token protection]()**
 
 **[10.Time-of-check to time-of-use]()**
 
