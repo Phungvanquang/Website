@@ -94,7 +94,7 @@
 ### [Public-Key-Pins]()
 ### [Retry-After]()
 ### [Server]()
-### [Set-Cookie]()
+### [Set-Cookie](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Set-cookie.pdf)
 ### [Strict-Transport-Security]()
 ### [Trailer]()	
 ### [Transfer-Encoding]()
