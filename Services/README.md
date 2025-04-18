@@ -27,7 +27,7 @@
 
 **[12.Subdomain]()**
 **[13. SSL/TLS]()**
-**[]()**
+**[14. single sign on](https://viblo.asia/p/single-sign-on-sso-la-gi-hoat-dong-ra-sao-bWrZn4oQ5xw)**
 **[]()**
 **[]()**
 **[]()**
