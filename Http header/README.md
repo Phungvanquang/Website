@@ -53,7 +53,7 @@
   - [50.Proxy-Connection]()
   - [51.X-Wap-Profile]()
   - [52.X-ATT-DeviceId]()
-  - [53. Sec-WebSocket-Key]()
+  - [53. Sec-WebSocket-Key](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Sec-WebSocket-Key.pdf)
 
 # [II. Các trường phản hồi chuẩn.]()
 
