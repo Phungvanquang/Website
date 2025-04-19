@@ -53,6 +53,7 @@
 ### [50.Proxy-Connection]()
 ### [51.X-Wap-Profile]()
 ### [52.X-ATT-DeviceId]()
+### [53. Sec-WebSocket-Key]()
 
 # [II. Các trường phản hồi chuẩn.]()
 
