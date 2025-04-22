@@ -58,7 +58,7 @@
   - [55.X-Host](https://github.com/Phungvanquang/Website/blob/main/Http%20header/X-Host.pdf)
   - [56.X-Forwarded-Host](https://github.com/Phungvanquang/Website/blob/main/Http%20header/X-Forwarded-Host.pdf)
   - [57.X-Rewrite-Url](https://github.com/Phungvanquang/Website/blob/main/Http%20header/X-Rewrite-Url.pdf)
-  - [58.X-Original-Url]()
+  - [58.X-Original-Url](https://github.com/Phungvanquang/Website/blob/main/Http%20header/X-Original-Url.pdf)
 # [II. Các trường phản hồi chuẩn.]()
 
 ### [Accept]()
