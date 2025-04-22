@@ -56,6 +56,7 @@
   - [53. Sec-WebSocket-Key](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Sec-WebSocket-Key.pdf)
   - [54.X-Forwarded-Server](https://github.com/Phungvanquang/Website/blob/main/Http%20header/X-Forwarded-Server.pdf)
   - [55.X-Host](https://github.com/Phungvanquang/Website/blob/main/Http%20header/X-Host.pdf)
+  - [56.X-Forwarded-Host](https://github.com/Phungvanquang/Website/blob/main/Http%20header/X-Forwarded-Host.pdf)
 # [II. Các trường phản hồi chuẩn.]()
 
 ### [Accept]()
