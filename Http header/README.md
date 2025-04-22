@@ -54,6 +54,7 @@
   - [51.X-Wap-Profile]()
   - [52.X-ATT-DeviceId]()
   - [53. Sec-WebSocket-Key](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Sec-WebSocket-Key.pdf)
+  - [54.X-Forwarded-Server]()
 
 # [II. Các trường phản hồi chuẩn.]()
 
