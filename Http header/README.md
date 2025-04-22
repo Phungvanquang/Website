@@ -54,8 +54,8 @@
   - [51.X-Wap-Profile]()
   - [52.X-ATT-DeviceId]()
   - [53. Sec-WebSocket-Key](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Sec-WebSocket-Key.pdf)
-  - [54.X-Forwarded-Server]()
-
+  - [54.X-Forwarded-Server](https://github.com/Phungvanquang/Website/blob/main/Http%20header/X-Forwarded-Server.pdf)
+  - [55.X-Host]()
 # [II. Các trường phản hồi chuẩn.]()
 
 ### [Accept]()
@@ -108,8 +108,6 @@
 ### [Warning]()
 ### [WWW-Authenticate]()                      
 ### [X-Frame-Options]()
-### [X-Host]()
-### [X-Forwarded-Server]()
 ### [X-HTTP-Host-Override]()
 ### [Forwarded]()
 ### [Content-Security-Policy]()
