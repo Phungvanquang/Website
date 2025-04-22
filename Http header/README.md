@@ -55,7 +55,7 @@
   - [52.X-ATT-DeviceId]()
   - [53. Sec-WebSocket-Key](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Sec-WebSocket-Key.pdf)
   - [54.X-Forwarded-Server](https://github.com/Phungvanquang/Website/blob/main/Http%20header/X-Forwarded-Server.pdf)
-  - [55.X-Host]()
+  - [55.X-Host](https://github.com/Phungvanquang/Website/blob/main/Http%20header/X-Host.pdf)
 # [II. Các trường phản hồi chuẩn.]()
 
 ### [Accept]()
