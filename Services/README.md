@@ -29,8 +29,8 @@
 **[13. SSL/TLS]()**
 **[14. single sign on](https://viblo.asia/p/single-sign-on-sso-la-gi-hoat-dong-ra-sao-bWrZn4oQ5xw)**
 **[14.Oauth 2.0 ]()**
-**[]()**
-**[]()**
+**[15.Load Balancer]()**
+**[15. Reverse Proxy]()**
 **[]()**
 **[]()**
 **[]()**
