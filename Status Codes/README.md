@@ -11,20 +11,16 @@
   + [`5xx (Server error - lỗi error)`]() : lỗi do server không sử lí được yêu từ bên phía server.
  
 **[3. HTTP Status 1xx.]()**
+
+
 ![image](https://github.com/user-attachments/assets/92e86b69-a716-4f48-bc84-7295f520dacc)
 
   
 **[5. HTTP Status 2xx.]()**
-- 200
-- 201
-- 202
-- 203
-- 204
-- 205
-- 206
-- 207
-- 208
-- 226
+
+
+![image](https://github.com/user-attachments/assets/d7783cc7-3e92-4f13-9eb3-95eed025312f)
+
   
 
 **[6. HTTP Status 3xx.]()**
