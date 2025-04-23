@@ -42,6 +42,8 @@
 **[18.JavaScript Object Notation(JSON)]()**
 
 **[19. WebDav]()**
+
 **[20. URI]()**
-**[21. ]()**
+
+**[21.Double Submit Cookies,Origin/Referer Validation,Custom Headers + CORS]()**
 
