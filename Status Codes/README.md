@@ -24,11 +24,10 @@
   
 
 **[6. HTTP Status 3xx.]()**
-- 300
-- 301
-- 302
-- 303
-- 
+
+
+![image](https://github.com/user-attachments/assets/0b11c713-8961-49f8-99ec-a562a4aa41d1)
+
 
 **[7. HTTP Status 4xx.]()**
 **[8. HTTP Status 5xx.]()**
