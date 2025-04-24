@@ -30,4 +30,9 @@
 
 
 **[7. HTTP Status 4xx.]()**
+
 **[8. HTTP Status 5xx.]()**
+
+
+![image](https://github.com/user-attachments/assets/d3c0a628-c4b7-4ccc-b233-843938a98825)
+
