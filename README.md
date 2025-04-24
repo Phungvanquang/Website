@@ -90,7 +90,7 @@
 
 **[5. Debug](https://github.com/Phungvanquang/Website/tree/main/Debug)**
 
-**[6.HTTP Request Methods]()**
+**[6.HTTP Request Methods](https://github.com/Phungvanquang/Website/blob/main/HTTP%20Request%20Methods.pdf)**
 
 **[]()**
 
