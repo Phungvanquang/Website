@@ -93,7 +93,7 @@
 ### [Link]()
 ### [Location]()   
 ### [P3P]()
-  - [Pragma]()
+  - [Pragma](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Pragma.pdf)
 ### [Preference-Applied]()
 ### [Proxy-Authenticate]()	 
 ### [Public-Key-Pins]()
