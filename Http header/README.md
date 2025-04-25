@@ -93,7 +93,7 @@
 ### [Link]()
 ### [Location]()   
 ### [P3P]()
-### [Pragma]()
+  - [Pragma]()
 ### [Preference-Applied]()
 ### [Proxy-Authenticate]()	 
 ### [Public-Key-Pins]()
