@@ -71,11 +71,25 @@
 [4. **Công cụ và môi trường làm việc**]()
    - Các phần mềm hỗ trợ XML (như Notepad++, VS Code).
    - Các thư viện XML trong các ngôn ngữ lập trình (Java, Python, C#,...).
+     
+[5. **ứng dụng**]()
 
-[5. **Thực hành**]()
+| ứng dụng thực tế                     | Mô tả nhanh  | 
+|--------------------------------------|--------------|
+| Web Service(SOAP)                    | Giao tiếp giữa server-client qua mạng. | 
+| Cấu hình phần mềm                    | File config cho app, server, framework (như web.xml, pom.xml, AndroidManifest.xml). |
+| Thiết kế giao diện (UI)              | 	Mô tả bố cục giao diện trong Android, WPF (.NET).  | 
+| Truyền tải dữ liệu                   | Giữa các ứng dụng khác nền tảng (Java ↔ C# ↔ Python).  | 
+| Báo cáo dữ liệu                      | Các file báo cáo chuẩn như XBRL (kế toán), FpML (tài chính).  | 
+| RSS Feeds                            | Để web/blog cập nhật nội dung tự động cho người đọc.  | 
+| Lưu trữ tài liệu                     | Lưu dữ liệu có cấu trúc trong file dạng text.  | 
+| Định dạng đồ họa (SVG)               | 	Các ảnh vector dạng XML để hiển thị trên web.  | 
+| Chữ ký số và mã hóa (XMLSig, XMLEnc) | Bảo mật tài liệu XML trong giao dịch điện tử.  | 
+
+[6. **Thực hành**]()
    - Viết tệp XML từ đơn giản đến phức tạp.
    - Tích hợp XML với các công nghệ như API, Web Services.
    - Các bài tập thực hành truy vấn và chỉnh sửa XML.
      
-[6. **Tài liệu tham khảo**]()
+[7. **Tài liệu tham khảo**]()
    - Tìm đọc tài liệu chính thức và các nguồn uy tín trên internet như [W3Schools](https://www.w3schools.com/xml/).
