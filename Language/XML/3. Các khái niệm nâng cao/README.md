@@ -21,8 +21,53 @@
 -  khai báo ATTLIST :  ```<!ATTLIST element-name attribute-name attribute-type default-value>```
   + Kiểu dữ liệu của thuộc tính (CDATA, ID, IDREF,...).
   + Giá trị mặc định cho thuộc tính.
-### 3. ***Xpath v af xQuery***
+### 3. ***Xpath và xQuery***
 
+3.1. Xpath.
+- Xpath là ngôn ngữ truy vấn được sử dụng để chọn các nút trong tài liệu XML.Xpath được sử dụng chỉ yếu để truy vấn dữ liệu trong XML và thường sử dụng kết hợp XSLT.
+- hoạt động : XPath sử dụng một hệ thống "đường dẫn" để chỉ định vị trí của các phần tử hoặc thuộc tính trong tài liệu XML. Các đường dẫn XPath được viết tương tự như đường dẫn trong hệ thống tệp của máy tính.
 
+Ví dụ : 
 
+XML
+```<bookstore>
+  <book>
+    <title lang="en">Programming XML</title>
+    <author>John Doe</author>
+    <price>29.95</price>
+  </book>
+  <book>
+    <title lang="fr">Programmation XML</title>
+    <author>Jean Dupont</author>
+    <price>25.50</price>
+  </book>
+</bookstore>
+````
+Xpath : 
+- `/bookstore/book/title`
+- `/bookstore/book/title[@lang='en']`
+- `/bookstore/book/title[@lang='en']`
+- `/bookstore/book/author`
+
+3.2. XQuery.
+- XQuery là một ngôn ngữ truy vấn XML phức tạp hơn XPath và cho phép bạn truy vấn dữ liệu XML, kết hợp và thao tác với dữ liệu trong XML một cách linh hoạt hơn. XQuery có thể được coi là phiên bản mạnh mẽ hơn của XPath, hỗ trợ khả năng lọc, kết hợp và thao tác với dữ liệu XML.
+- Cách hoạt động của XQuery:
+  + XQuery không chỉ thực hiện các truy vấn mà còn cho phép bạn xử lý và thao tác với các kết quả (ví dụ: tạo các phần tử XML mới).
+  + XQuery có thể sử dụng các biểu thức XPath trong cú pháp của nó, nhưng thêm vào đó, nó còn hỗ trợ các thao tác điều kiện, vòng lặp, và xử lý dữ liệu như trong các ngôn ngữ lập trình truyền thống.
+ 
+ví dụ: 
+````
+let $books := doc("bookstore.xml")/bookstore/book
+for $book in $books
+return <book>
+         <title>{ $book/title }</title>
+         <author>{ $book/author }</author>
+         <price>{ $book/price }</price>
+       </book>
+````
+
+giải thích :
+- let $books := doc("bookstore.xml")/bookstore/book: Lấy tất cả các sách từ tài liệu XML.
+- for $book in $books: Lặp qua từng phần tử <book>.
+- return <book>...</book>: Trả về kết quả với cấu trúc XML mới, chỉ bao gồm các thẻ <title>, <author>, và <price>.
 
