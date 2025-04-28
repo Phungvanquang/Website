@@ -98,6 +98,7 @@
 
 **[]()**
 ### Tài liệu tham khảo
+- https://chatgpt.com/s/dr_680ee0b3c6c4819197e6b53ae34bed79
 - https://viblo.asia/p/local-storage-session-storage-va-cookie-ORNZqN3bl0n
 - https://docs.mojolicious.org/#FULL-STACK
 - https://kb.hostvn.net/api-la-gi_893.html
