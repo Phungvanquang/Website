@@ -1,4 +1,6 @@
 # XML (Extensible Markup Language)
+![image](https://github.com/user-attachments/assets/1aec1ed3-c57c-4e5f-97d1-1a489f389722)
+
 
 [1. **Giới thiệu chung**]()
 - XML là từ viết tắt của từ Extensible Markup Language là ngôn ngữ đánh dấu mở rộng được thiết kế để lưu trữ và truyền tải dữ liệu một cách có cấu trúc. Tác dụng chính của XML là đơn giản hóa việc chia sẻ dữ liệu giữa các nền tảng và các hệ thống được kết nối thông qua mạng Internet.
