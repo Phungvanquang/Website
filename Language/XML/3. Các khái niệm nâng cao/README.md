@@ -13,7 +13,14 @@
   +  tích hợp dễ dàng : namespace cho phép bạn kết hợp dữ liệu từ các nguồn khác nhàu mà không lo lắng.
 ### 2. ***DTD (Document Type Definition)***
 - DTD (Document Type Definition) trong XML là một phương pháp xác định cấu trúc và các quy tắc của một tài liệu XML. Nó giúp đảm bảo rằng tài liệu XML "tuân thủ đúng định dạng" (valid XML), tức là các phần tử, thuộc tính và dữ liệu bên trong tài liệu phải tuân theo các quy định mà DTD đặt ra.
-
+- khai báo DTD : ```<!ELEMENT element-name content-type>```
+  + Phần tử rỗng: Không chứa nội dung
+  + Phần tử con: Gồm các phần tử lồng nhau.
+  + Dữ liệu văn bản: #PCDATA (Parsed Character Data).
+-  khai báo ENTITY : ```<!ENTITY entity-name "replacement-text">```
+-  khai báo ATTLIST :  ```<!ATTLIST element-name attribute-name attribute-type default-value>```
+  + Kiểu dữ liệu của thuộc tính (CDATA, ID, IDREF,...).
+  + Giá trị mặc định cho thuộc tính.
 ### 3. ***Xpath v af xQuery***
 
 
