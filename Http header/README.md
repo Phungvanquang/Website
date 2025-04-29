@@ -4,7 +4,7 @@
   - 🤝[1.Content Security Policy](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Content%20Security%20Policy(CSP).md)
   - 🤝[2.Host](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Host.md)
   - 🤝[3.Cookie](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Cookie.pdf)
-  - [4.Content-Length]()
+  - 🤝[4.Content-Length](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Content-Length.pdf)
   - [5.X-Origin]()
   - [6.Origin]()
   - 🤝[7.Sec-Ch-Ua-Platform](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Sec-CH-UA-Platform.pdf)
