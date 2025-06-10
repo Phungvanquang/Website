@@ -2,7 +2,7 @@
 
 ## I. Fontend.
 
-**[1.Html](https://github.com/Phungvanquang/Website/tree/main/html_css_javascript/html)**
+**[1.HTML](https://github.com/Phungvanquang/Website/tree/main/html_css_javascript/html)**
 
 **[2.CSS](https://github.com/Phungvanquang/Website/tree/main/html_css_javascript/CSS)**
 
