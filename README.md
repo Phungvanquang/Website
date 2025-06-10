@@ -2,9 +2,9 @@
 
 ## I. Fontend.
 
-**[1.HTML](https://github.com/Phungvanquang/Website/tree/main/html_css_javascript/html)**
+**[1.HTML](https://github.com/Phungvanquang/Website/tree/main/Language/Html%20Css)**
 
-**[2.CSS](https://github.com/Phungvanquang/Website/tree/main/html_css_javascript/CSS)**
+**[2.CSS](https://github.com/Phungvanquang/Website/tree/main/Language/Html%20Css)**
 
 **[3.Javascript]()**
 
