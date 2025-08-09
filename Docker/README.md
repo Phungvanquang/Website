@@ -1,6 +1,109 @@
 # Docker 
 
-
+```
+Docker Learning Roadmap
+│
+├── 0. Kiến thức nền tảng (mới thêm - trước khi cài đặt)
+│   ├── Container vs Virtual Machine
+│   ├── Docker Architecture (Engine, Daemon, CLI, Registry)
+│   ├── Images & Containers (layer, UnionFS)
+│   └── Docker workflow cơ bản (Pull → Run → Stop → Build → Push)
+│
+├── 1. Cài đặt & Chuẩn bị
+│   ├── Install (Ubuntu, Debian, RHEL, Fedora, ...)
+│   └── Post-installation steps
+│
+├── 2. CLI & Quản lý cơ bản
+│   ├── Lệnh docker cơ bản (run, ps, stop, rm, exec, logs, pull, build, images, rmi)
+│   ├── Completion & Proxy configuration
+│   ├── Filter & Format output
+│   ├── Contexts
+│   ├── Object labels
+│   └── Prune unused objects
+│
+├── 3. Docker Hub & Registry (mới thêm)
+│   ├── Tìm & pull image (docker search, pull)
+│   ├── Tag & push image
+│   ├── Docker login
+│   └── Private registry basics
+│
+├── 4. Storage
+│   ├── Volumes
+│   ├── Bind mounts
+│   ├── tmpfs mounts
+│   └── containerd image store
+│
+├── 5. Networking
+│   ├── Network drivers (bridge, host, none, ipvlan, macvlan, overlay)
+│   ├── Networking scenarios
+│   ├── CA certificates
+│   └── Packet filtering & firewalls
+│
+├── 6. Container Lifecycle nâng cao
+│   ├── Start automatically
+│   ├── Multi-process containers
+│   ├── Resource constraints
+│   ├── Runtime metrics
+│   ├── IPv6 networking
+│   ├── Live restore
+│   ├── Alternative runtimes
+│   ├── Docker metrics (Prometheus)
+│   ├── Remote daemon access
+│   └── Troubleshooting daemon
+│
+├── 7. Logging
+│   ├── Logging drivers (JSON file, local, syslog, fluentd, splunk, gcloud, ...)
+│   ├── Customize output
+│   └── Remote logging integration
+│
+├── 8. Security
+│   ├── Rootless mode
+│   ├── AppArmor
+│   ├── User namespace
+│   ├── Protect daemon socket
+│   ├── Seccomp profiles
+│   ├── Content trust & Notary
+│   └── Antivirus & Docker
+│
+├── 9. Build System & BuildKit
+│   ├── Dockerfile cơ bản
+│   ├── Multi-stage build
+│   ├── Variables & Secrets
+│   ├── Multi-platform build
+│   ├── Build cache (local, registry, inline, s3, azure, github)
+│   ├── Exporters
+│   ├── Attestations & SBOM
+│   ├── BuildKit config
+│   └── Best practices
+│
+├── 10. Docker Compose
+│   ├── Plugin vs Standalone
+│   ├── Quickstart
+│   ├── Service definition
+│   ├── Env variables
+│   ├── Networking in Compose
+│   ├── Secrets
+│   ├── GPU support
+│   ├── Production usage
+│   ├── Merge/Extend/Include
+│   └── OCI artifact applications
+│
+├── 11. Swarm Mode
+│   ├── Create & manage swarm
+│   ├── Add nodes
+│   ├── Deploy services & stacks
+│   ├── Scale & rolling updates
+│   ├── Swarm security (PKI)
+│   ├── Secrets & configs
+│   ├── Routing mesh
+│   └── Raft consensus
+│
+└── 12. Plugins
+    ├── Access authorization
+    ├── Log driver plugins
+    ├── Network driver plugins
+    └── Volume plugins
+```
 # I. Tổng quan.
 ## 1. khái niệm. 
 - `Docker` là một nền tảng mở để phát triển, vận chuyển và chạy các ứng dụng. Docker cho phép bạn tách biệt các ứng dụng của mình khỏi cơ sở hạ tầng để bạn có thể phân phối phần mềm nhanh chóng. Với Docker, bạn có thể quản lý cơ sở hạ tầng của mình theo cùng cách bạn quản lý các ứng dụng của mình. Bằng cách tận dụng các phương pháp của Docker để vận chuyển, thử nghiệm và triển khai mã, bạn có thể giảm đáng kể độ trễ giữa việc viết mã và chạy mã trong sản xuất.
