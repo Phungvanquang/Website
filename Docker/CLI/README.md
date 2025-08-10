@@ -7,4 +7,4 @@
 #### [5. Network Management.]()
 #### [6. System và Prune.]()
 #### [7. Context và Config.]()
-#### [8. Registr.]()
+#### [8. Registr và login.]()
