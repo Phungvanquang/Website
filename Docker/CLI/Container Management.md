@@ -1,20 +1,21 @@
 # Container Management
-docker run – tạo & chạy container
 
-docker create – chỉ tạo, chưa chạy
+#### 1. Docker run – tạo & chạy container
 
-docker start / docker restart – khởi động lại container đã tạo
+#### 2. Docker create – chỉ tạo, chưa chạy
 
-docker stop / docker kill – dừng container (SIGTERM / SIGKILL)
+#### 3. Docker start / docker restart – khởi động lại container đã tạo
 
-docker pause / docker unpause – tạm dừng & tiếp tục container (freezer cgroups)
+#### 4. Docker stop / docker kill – dừng container (SIGTERM / SIGKILL)
 
-docker exec – chạy lệnh trong container đang chạy
+#### 5. Docker pause / docker unpause – tạm dừng & tiếp tục container (freezer cgroups)
 
-docker attach – gắn terminal vào container
+#### 6. Docker exec – chạy lệnh trong container đang chạy
 
-docker rename – đổi tên container
+#### 7. Docker attach – gắn terminal vào container
 
-docker update – thay đổi resource limit khi container đang chạy
+#### 8. Docker rename – đổi tên container
 
-docker wait – chờ container kết thúc và trả về exit code
+#### 9. Docker update – thay đổi resource limit khi container đang chạy
+
+#### 10. Docker wait – chờ container kết thúc và trả về exit code
