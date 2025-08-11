@@ -5,6 +5,6 @@
 #### [3. Image Management.](https://github.com/Phungvanquang/Website/blob/main/Docker/CLI/Image%20Management.md)
 #### [4. Volume Management.](https://github.com/Phungvanquang/Website/blob/main/Docker/CLI/Volume%20Management.md)
 #### [5. Network Management.](https://github.com/Phungvanquang/Website/blob/main/Docker/CLI/Network%20Management.md)
-#### [6. System và Prune.]()
+#### [6. System và Prune.](https://github.com/Phungvanquang/Website/blob/main/Docker/CLI/System%20&%20Prune.md)
 #### [7. Context và Config.]()
 #### [8. Registr và login.]()
