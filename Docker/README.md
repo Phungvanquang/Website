@@ -22,7 +22,7 @@ Docker Learning Roadmap
 - Tag & push image
 - Docker login
 - Private registry basics
-#### [4. Storage]()
+#### [4. Storage](https://github.com/Phungvanquang/Website/blob/main/Docker/Storage/README.md)
 - Volumes
 - Bind mounts
 - tmpfs mounts
@@ -32,71 +32,64 @@ Docker Learning Roadmap
 - Networking scenarios
 - CA certificates
 - Packet filtering & firewalls
-```
-├── 6. Container Lifecycle nâng cao
-│   ├── Start automatically
-│   ├── Multi-process containers
-│   ├── Resource constraints
-│   ├── Runtime metrics
-│   ├── IPv6 networking
-│   ├── Live restore
-│   ├── Alternative runtimes
-│   ├── Docker metrics (Prometheus)
-│   ├── Remote daemon access
-│   └── Troubleshooting daemon
-│
-├── 7. Logging
-│   ├── Logging drivers (JSON file, local, syslog, fluentd, splunk, gcloud, ...)
-│   ├── Customize output
-│   └── Remote logging integration
-│
-├── 8. Security
-│   ├── Rootless mode
-│   ├── AppArmor
-│   ├── User namespace
-│   ├── Protect daemon socket
-│   ├── Seccomp profiles
-│   ├── Content trust & Notary
-│   └── Antivirus & Docker
-│
-├── 9. Build System & BuildKit
-│   ├── Dockerfile cơ bản
-│   ├── Multi-stage build
-│   ├── Variables & Secrets
-│   ├── Multi-platform build
-│   ├── Build cache (local, registry, inline, s3, azure, github)
-│   ├── Exporters
-│   ├── Attestations & SBOM
-│   ├── BuildKit config
-│   └── Best practices
-│
-├── 10. Docker Compose
-│   ├── Plugin vs Standalone
-│   ├── Quickstart
-│   ├── Service definition
-│   ├── Env variables
-│   ├── Networking in Compose
-│   ├── Secrets
-│   ├── GPU support
-│   ├── Production usage
-│   ├── Merge/Extend/Include
-│   └── OCI artifact applications
-│
-├── 11. Swarm Mode
-│   ├── Create & manage swarm
-│   ├── Add nodes
-│   ├── Deploy services & stacks
-│   ├── Scale & rolling updates
-│   ├── Swarm security (PKI)
-│   ├── Secrets & configs
-│   ├── Routing mesh
-│   └── Raft consensus
-│
-└── 12. Plugins
-    ├── Access authorization
-    ├── Log driver plugins
-    ├── Network driver plugins
-    └── Volume plugins
+#### 6. Container Lifecycle nâng cao
+- Start automatically
+- Multi-process containers
+- Resource constraints
+- Runtime metrics
+- IPv6 networking
+- Live restore
+- Alternative runtimes
+- Docker metrics (Prometheus)
+- Remote daemon access
+- Troubleshooting daemon
+#### 7. Logging
+- Logging drivers (JSON file, local, syslog, fluentd, splunk, gcloud, ...)
+- Customize output
+- Remote logging integration
+#### 8. Security
+- Rootless mode
+- AppArmor
+- User namespace
+- Protect daemon socket
+- Seccomp profiles
+- Content trust & Notary
+- Antivirus & Docker
+#### 9. Build System & BuildKit
+- Dockerfile cơ bản
+- Multi-stage build
+- Variables & Secrets
+- Multi-platform build
+- Build cache (local, registry, inline, s3, azure, github)
+- Exporters
+- Attestations & SBOM
+- BuildKit config
+- Best practices
+#### 10. Docker Compose
+- Plugin vs Standalone
+- Quickstart
+- Service definition
+- Env variables
+- Networking in Compose
+- Secrets
+- GPU support
+- Production usage
+- Merge/Extend/Include
+- OCI artifact applications
+#### 11. Swarm Mode
+- Create & manage swarm
+- Add nodes
+- Deploy services & stacks
+- Scale & rolling updates
+- Swarm security (PKI)
+- Secrets & configs
+- Routing mesh
+- Raft consensus
+#### 12. Plugins
+- Access authorization
+- Log driver plugins
+- Network driver plugins
+- Volume plugins
 ```
 # I. Tổng quan.
 ## 1. khái niệm. 
