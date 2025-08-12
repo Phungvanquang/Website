@@ -1,44 +1,38 @@
 # Docker 
 
-```
+
 Docker Learning Roadmap
-│
-├── [0. Kiến thức nền tảng (mới thêm - trước khi cài đặt)](https://github.com/Phungvanquang/Website/tree/main/Docker/Ki%E1%BA%BFn%20th%E1%BB%A9c%20n%E1%BB%81n%20t%E1%BA%A3ng)
-│   ├── Container vs Virtual Machine
-│   ├── Docker Architecture (Engine, Daemon, CLI, Registry)
-│   ├── Images & Containers (layer, UnionFS)
-│   └── Docker workflow cơ bản (Pull → Run → Stop → Build → Push)
-│
-├── 1. Cài đặt & Chuẩn bị
-│   ├── Install (Ubuntu, Debian, RHEL, Fedora, ...)
-│   └── Post-installation steps
-│
-├── 2. CLI & Quản lý cơ bản
-│   ├── Lệnh docker cơ bản (run, ps, stop, rm, exec, logs, pull, build, images, rmi)
-│   ├── Completion & Proxy configuration
-│   ├── Filter & Format output
-│   ├── Contexts
-│   ├── Object labels
-│   └── Prune unused objects
-│
-├── 3. Docker Hub & Registry (mới thêm)
-│   ├── Tìm & pull image (docker search, pull)
-│   ├── Tag & push image
-│   ├── Docker login
-│   └── Private registry basics
-│
-├── 4. Storage
-│   ├── Volumes
-│   ├── Bind mounts
-│   ├── tmpfs mounts
-│   └── containerd image store
-│
-├── 5. Networking
-│   ├── Network drivers (bridge, host, none, ipvlan, macvlan, overlay)
-│   ├── Networking scenarios
-│   ├── CA certificates
-│   └── Packet filtering & firewalls
-│
+#### [0. Kiến thức nền tảng (mới thêm - trước khi cài đặt)](https://github.com/Phungvanquang/Website/tree/main/Docker/Ki%E1%BA%BFn%20th%E1%BB%A9c%20n%E1%BB%81n%20t%E1%BA%A3ng)
+- Container vs Virtual Machine
+- Docker Architecture (Engine, Daemon, CLI, Registry)
+- Images & Containers (layer, UnionFS)
+- Docker workflow cơ bản (Pull → Run → Stop → Build → Push)
+#### [1. Cài đặt & Chuẩn bị]()
+- Install (Ubuntu, Debian, RHEL, Fedora, ...)
+- Post-installation steps
+#### [2. CLI & Quản lý cơ bản](https://github.com/Phungvanquang/Website/tree/main/Docker/CLI)
+- Lệnh docker cơ bản (run, ps, stop, rm, exec, logs, pull, build, images, rmi)
+- Completion & Proxy configuration
+- Filter & Format output
+- Contexts
+- Object labels
+- Prune unused objects
+#### [3. Docker Hub & Registry (mới thêm)]()
+- Tìm & pull image (docker search, pull)
+- Tag & push image
+- Docker login
+- Private registry basics
+#### [4. Storage]()
+- Volumes
+- Bind mounts
+- tmpfs mounts
+- containerd image store
+#### [5. Networking]()
+- Network drivers (bridge, host, none, ipvlan, macvlan, overlay)
+- Networking scenarios
+- CA certificates
+- Packet filtering & firewalls
+
 ├── 6. Container Lifecycle nâng cao
 │   ├── Start automatically
 │   ├── Multi-process containers
