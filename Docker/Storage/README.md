@@ -147,4 +147,64 @@ docker run -d -v /etc/nginx/nginx.conf:/etc/nginx/nginx.conf:ro nginx:latest
 
  
 ##### 3. tmpfs Mounts — In-memory ephemeral storage.
+- tmpfs mount là loại mount đặc biệt mà dữ liệu được lưu trữ trực tiếp trong RAM của host , không ghi xuống disk.
+    - nhanh hơn so với SSD/HDD.
+    - dữ liệu biến mất khi container dừng hoặc bị restart.
+    - thích hợp cho cache, dữ liệu tạm hoặc dữ liệu nhạy cảm không lưu lại.
+######  `3.1. Ưu điểm`:
+- hiệu năng cực cao : đọc/ghi RAM nhanh hơn nhiều lần so với disk.
+- không để lại dấu vết trên disk : dữ liệu nhạy cảm (token, session key, temp files ).
+- tránh ghi mòn SSD : trong các tác vụ I/O tạm thời.
+###### `3.2. Nhược điểm`:
+- dung lượng hạn chế : giới hạn bởi RAM của host.
+- dữ liệu mấy ngay : khi container stop/restart.
+- không thích hợp cho dữ liệu cần persistence.
+- nếu lạm dụng : dễ gây thiếu RAM, ảnh hưởng toàn hệ thống.
+###### `3.3. Câu lệnh.`
+
+cách 1: dùng `--mount`:
+```
+docker run -d --mount type=tmpfs,destination=/app/cache nginx:latest
+```
+- `type-tmpfs` : kiểu mount RAM-based.
+- destination : nơi trong container mà tmpfs sẽ mount vào.
+  
+cách 2 : dùng `--tmpfs`.
+```
+docker run -d --tmpfs /app/cache nginx:latest
+```
+###### `3.4. giới hạn dung lượng & options.`
+mặc định tmpfs  sẽ dùng tối đa dung lượng RAM hệ thống cho mount point, nhưng ta có thể giới hạn : 
+
+```
+docker run -d --mount type=tmpfs,destination=/app/cache,tmpfs-size=64m,tmpfs-mode=1777
+```
+- tmpfs-size=64m :tối đa 64MB.
+- tmpfs-mode=1777 : quyền truy cập.
+
+`thưc tế : `
+- cache web server :
+  
+```
+docker run -d --mount type=tmpfs,destination=/var/cache/nginx nginx:latest
+```
+
+-> giúp nginx đọc/ghi cache cực nhanh mà không ảnh hưởng disk.
+- lưu file tạm.
+  
+```
+docker run -it --tmpfs /tmp:rw ubuntu bash
+```
+
+-> file trong /tmp sẽ biến mất sau khi container dừng.
+- dữ liệu nhạy cảm :
+  
+```
+docker run -it --tmpfs /secrets alpine sh
+```                                                                                 -> lưu file private key, session tokens.v.v.trong RAM thay vì disk.
+
+##### `3.5. Best Practices.`
+- dùng cho cache, session storage, build arifacts tạm.
+- luôn giới hạn dung lượng để tránh container chiếm hết RAM host.
+- không dùng cho dữ liệu cần lưu lâu dài.                                                                                     
 ##### 4. containerd Image Store — Docker’s internal image & layer storage.
