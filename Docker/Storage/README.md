@@ -1,7 +1,7 @@
 # 4. Storage
 
 
-##### 1. Volumes — Docker-managed persistent storage.
+#### 1. Volumes — Docker-managed persistent storage.
 - Volume là vùng lưu trữ dũ liệu do docker quản lý và tách biệt khỏi vòng đời container.Khác với dữ liệu ghi trực tiếp trong container layer, dữ liệu trong volume sẽ persist ngay cả khi container bị xoá hoặc rebuild.
 path :
 ```
@@ -79,7 +79,7 @@ docker run --rm -v mydata:/data -v $(pwd):/backup busybox tar xzf /backup/mydata
 - không hardcode path /var/lib/docker/... --hãy quản lí qua docker CLI.
 - regular prune : xoá volume không dùng để tiết kiệm disk.
   
-##### 2. Bind Mounts — Direct host path mapping.
+#### 2. Bind Mounts — Direct host path mapping.
 - Bind mount là cách gắn 1 đường dẫn cụ thể trên host vào container.
 
 ###### 2.1. Ưu Điểm. 
@@ -146,7 +146,7 @@ docker run -d -v /etc/nginx/nginx.conf:/etc/nginx/nginx.conf:ro nginx:latest
 | Hiệu năng      | Có thể kém hơn nếu FS host chậm | Ổn định hơn                |
 
  
-##### 3. tmpfs Mounts — In-memory ephemeral storage.
+#### 3. tmpfs Mounts — In-memory ephemeral storage.
 - tmpfs mount là loại mount đặc biệt mà dữ liệu được lưu trữ trực tiếp trong RAM của host , không ghi xuống disk.
     - nhanh hơn so với SSD/HDD.
     - dữ liệu biến mất khi container dừng hoặc bị restart.
@@ -197,14 +197,66 @@ docker run -it --tmpfs /tmp:rw ubuntu bash
 ```
 
 -> file trong /tmp sẽ biến mất sau khi container dừng.
-- dữ liệu nhạy cảm :
-  
+- dữ liệu nhạy cảm.
 ```
 docker run -it --tmpfs /secrets alpine sh
-```                                                                                 -> lưu file private key, session tokens.v.v.trong RAM thay vì disk.
+```
+
+-> lưu file private key, session tokens.v.v.trong RAM thay vì disk.
 
 ##### `3.5. Best Practices.`
 - dùng cho cache, session storage, build arifacts tạm.
 - luôn giới hạn dung lượng để tránh container chiếm hết RAM host.
 - không dùng cho dữ liệu cần lưu lâu dài.                                                                                     
-##### 4. containerd Image Store — Docker’s internal image & layer storage.
+#### 4. containerd Image Store — Docker’s internal image & layer storage.
+##### 4.1. Container.
+- Container là container runtime cấp thấp mà docker sử dụng để quản lí :
+    - Pull/push image.
+    - Quản lí snapshot(layer).
+    - chạy Container.
+
+Docker hiện đại (20.x trở lên) chạy trên kiến trúc.
+```
+docker CLI --> Docker Daemon --> Containerd --> Runc
+```
+- Containerd quản lí image store (nơi chứa image,metadata và layer trên host).
+
+##### 4.2. vị trí lưu trữ.
+
+###### `trên linux: `
+```
+/var/lib/docker/
+```
+- Cấu trúc thư mục quan trọng:
+    - /var/lib/docker/image/overlay2/ → metadata image
+    - /var/lib/docker/overlay2/ → layer filesystem (copy-on-write)
+    - /var/lib/docker/volumes/ → volumes
+    - /var/lib/docker/containers/ → thông tin container (log, config)
+###### `nếu Docker dùng container trực tiếp : `
+```
+/var/lib/containerd/
+```
+- /var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/ : layer data
+- /var/lib/containerd/content/ : Blobs (tar layers)
+- /var/lib/containerd/metadata.db : SQLite DB chứa metadata
+
+##### 4.3. Cách hoạt động của image store
+
+1.Khi pull image:
+- Docker CLI gọi docker pull nginx:latest
+- Docker daemon yêu cầu containerd tải image từ registry
+- Layer được lưu dưới dạng blobs trong content/
+- Sau đó, containerd unpack blobs thành snapshot trong overlayfs
+
+2. Khi run container:
+- containerd dùng snapshot overlay2 làm rootfs
+- Copy-on-write (COW) → chỉ ghi layer mới khi có thay đổi
+
+3. Khi xóa image/layer:
+- Nếu không container nào tham chiếu → containerd giải phóng snapshot & blob
+- Có thể xem bằng:
+```
+docker system df
+docker image prune
+```
+
