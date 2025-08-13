@@ -2,37 +2,37 @@
 
 
 
-#### [0. Kiến thức nền tảng (mới thêm - trước khi cài đặt)](https://github.com/Phungvanquang/Website/tree/main/Docker/Ki%E1%BA%BFn%20th%E1%BB%A9c%20n%E1%BB%81n%20t%E1%BA%A3ng)
+#### [0. Kiến thức nền tảng.](https://github.com/Phungvanquang/Website/tree/main/Docker/Ki%E1%BA%BFn%20th%E1%BB%A9c%20n%E1%BB%81n%20t%E1%BA%A3ng)
 - Container vs Virtual Machine
 - Docker Architecture (Engine, Daemon, CLI, Registry)
 - Images & Containers (layer, UnionFS)
 - Docker workflow cơ bản (Pull → Run → Stop → Build → Push)
-#### [1. Cài đặt & Chuẩn bị]()
+#### [1. Cài đặt & Chuẩn bị.]()
 - Install (Ubuntu, Debian, RHEL, Fedora, ...)
 - Post-installation steps
-#### [2. CLI & Quản lý cơ bản](https://github.com/Phungvanquang/Website/tree/main/Docker/CLI)
+#### [2. CLI & Quản lý cơ bản.](https://github.com/Phungvanquang/Website/tree/main/Docker/CLI)
 - Lệnh docker cơ bản (run, ps, stop, rm, exec, logs, pull, build, images, rmi)
 - Completion & Proxy configuration
 - Filter & Format output
 - Contexts
 - Object labels
 - Prune unused objects
-#### [3. Docker Hub & Registry (mới thêm)](https://github.com/Phungvanquang/Website/tree/main/Docker/Docker%20Hub%20&%20Registry)
+#### [3. Docker Hub & Registry.](https://github.com/Phungvanquang/Website/tree/main/Docker/Docker%20Hub%20&%20Registry)
 - Tìm & pull image (docker search, pull)
 - Tag & push image
 - Docker login
 - Private registry basics
-#### [4. Storage](https://github.com/Phungvanquang/Website/blob/main/Docker/Storage/README.md)
+#### [4. Storage.](https://github.com/Phungvanquang/Website/blob/main/Docker/Storage/README.md)
 - Volumes
 - Bind mounts
 - tmpfs mounts
 - containerd image store
-#### [5. Networking](https://github.com/Phungvanquang/Website/blob/main/Docker/Networking/README.md)
+#### [5. Networking.](https://github.com/Phungvanquang/Website/blob/main/Docker/Networking/README.md)
 - Network drivers (bridge, host, none, ipvlan, macvlan, overlay)
 - Networking scenarios
 - CA certificates
 - Packet filtering & firewalls
-#### [6. Container Lifecycle nâng cao]()
+#### [6. Container Lifecycle.](https://github.com/Phungvanquang/Website/tree/main/Docker/Container%20Lifecycle)
 - Start automatically
 - Multi-process containers
 - Resource constraints
@@ -43,11 +43,11 @@
 - Docker metrics (Prometheus)
 - Remote daemon access
 - Troubleshooting daemon
-#### [7. Logging]()
+#### [7. Logging.]()
 - Logging drivers (JSON file, local, syslog, fluentd, splunk, gcloud, ...)
 - Customize output
 - Remote logging integration
-#### [8. Security]()
+#### [8. Security.]()
 - Rootless mode
 - AppArmor
 - User namespace
@@ -55,7 +55,7 @@
 - Seccomp profiles
 - Content trust & Notary
 - Antivirus & Docker
-#### [9. Build System & BuildKit]()
+#### [9. Build System & BuildKit.]()
 - Dockerfile cơ bản
 - Multi-stage build
 - Variables & Secrets
@@ -65,7 +65,7 @@
 - Attestations & SBOM
 - BuildKit config
 - Best practices
-#### [10. Docker Compose]()
+#### [10. Docker Compose.]()
 - Plugin vs Standalone
 - Quickstart
 - Service definition
@@ -76,7 +76,7 @@
 - Production usage
 - Merge/Extend/Include
 - OCI artifact applications
-#### [11. Swarm Mode]()
+#### [11. Swarm Mode.]()
 - Create & manage swarm
 - Add nodes
 - Deploy services & stacks
@@ -85,7 +85,7 @@
 - Secrets & configs
 - Routing mesh
 - Raft consensus
-#### [12. Plugins]()
+#### [12. Plugins.]()
 - Access authorization
 - Log driver plugins
 - Network driver plugins
