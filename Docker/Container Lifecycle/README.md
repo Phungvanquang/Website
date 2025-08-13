@@ -1,6 +1,6 @@
 # 6. Container Lifecycle.
 
-#### [6.1. Start automatically (Restart policies: no, always, unless-stopped, on-failure)]()
+#### [6.1. Start automatically (Restart policies: no, always, unless-stopped, on-failure)](https://github.com/Phungvanquang/Website/blob/main/Docker/Container%20Lifecycle/6.1.%20Start%20automatically.md)
 #### [6.2. Multi-process containers (supervisord, s6, runit)]()
 #### [6.3. Resource constraints (CPU, Memory, I/O)]()
 #### [6.4. Runtime metrics (docker stats, cAdvisor, Prometheus)]()
