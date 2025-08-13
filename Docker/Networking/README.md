@@ -247,7 +247,7 @@ Ví dụ :
 ```
 docker network create -d bridge --subnet=172.28.0.0/16 --gateway=172.28.0.1 my_bridge
 ```
-###### 5.3. Inspect network.
+##### 5.3. Inspect network.
 ```
 docker network inspect <name|id>
 ```
@@ -257,7 +257,7 @@ Ví dụ :
 docker network inspect my_bridge | jq '.[0].containers'
 ```
 
-###### 5.4. Xoá network.
+##### 5.4. Xoá network.
 ```
 docker network rm <name|id>
 ```
@@ -268,7 +268,7 @@ Ví dụ :
 docker network rm net1 net2 net3
 ```
 
-###### 5.5. Kết nối container vào network.
+##### 5.5. Kết nối container vào network.
 ```
 docker network connect <network> <container>
 ```
@@ -282,12 +282,12 @@ docker network connect my_bridge my_container
 docker network connect --ip 172.28.0.50 my_bridge my_container
 ```
 
-###### 5.6. Ngắt kết nối container khởi network.
+##### 5.6. Ngắt kết nối container khởi network.
 ```
 docker network disconnect <network> <container>
 ```
 - force : ngắt ngay cả khi container đang chạy.
-###### 5.7. Dọn network không dùng.
+##### 5.7. Dọn network không dùng.
 ```
 docker network prune 
 ```
@@ -298,32 +298,32 @@ docker network prune --filter  "until=24h"
 ```
 - filter : giới hạn xoá điều kiện.
 
-###### 5.8. Tạo network Macvlan.
+##### 5.8. Tạo network Macvlan.
 ```
 docker network create -d macvlan --subnet=192.168.1.0/24 --gateway=192.168.1.1 -o parent=eth0 pub_net
 ```
 - `-o parent` : chỉ định interface vật lí để gắn.
 
-###### 5.9. Tạo Overlay network.
+##### 5.9. Tạo Overlay network.
 ```
 docker network create -d overlay my_overlay
 ```
 - chỉ hoạt động khi bật docker Swarm.
 
-###### 5.10. Các tuỳ chọn filter & format nâng cao.
+##### 5.10. Các tuỳ chọn filter & format nâng cao.
 ```
 docker network ls --filter driver=bridge --format "{{.Name}}:{{.Driver}}"
 ```
 - .ID,Name, Driver, .Scope, .Labels
   
 #### 6. CA Certificates.
-###### 6.1. Khái niệm. 
+##### 6.1. Khái niệm. 
 - CA (Certificates Authority) : tổ chức phát hành chứng chỉ số (Certificates) để xác thực danh tính server/client.
 - Docker, CA certificates thường dùng :
   - kết nối docker CLI ↔ Docker Daemon qua TLS an toàn.
   - kết nối đến private registry (HTTPS).
   - kết nối giữa các Node trong Docker Swarm/Overlay network (mã hoá mutual TLS).
-###### 6.2. Sử dụng CA Certificates.
+##### 6.2. Sử dụng CA Certificates.
 - Docker Daemon TLS Secured API :
   - khi Daemon lắng nghi trên TCP của Daemon và client certificate của CLI.
   - CLI kết nối được nếu CA đó.
@@ -334,7 +334,7 @@ docker network ls --filter driver=bridge --format "{{.Name}}:{{.Driver}}"
   - Swarm mode tự động cấp CA và rotate cert cho mode.
   - có thể thay CA mặc định bằng CA nội bộ.
   
-###### 6.3. Vị trí CA Certificates.
+##### 6.3. Vị trí CA Certificates.
 
 Trên Linux (Docker Engine):
 ```
@@ -349,7 +349,7 @@ C:\ProgramData\docker\certs.d\<registry-host>\ca.crt
 Trên MACOS :
 - Import CA vào Keychain Access và tin tưởng nó.
 
-###### 6.4. Cài đặt.
+##### 6.4. Cài đặt.
 
 Ví dụ : 
 
@@ -367,7 +367,7 @@ sudo systemctl restart docker
 docker login myregistry.local:5000
 ```
 
-###### 6.5. Kích hoạt.
+##### 6.5. Kích hoạt.
 
 Tạo CA,Server cert, client cert : 
 ```
@@ -413,20 +413,20 @@ docker --tlsverify \
   -H=tcp://my-docker-host:2376 version
 ```
 
-###### 6.6. Bảo mật.
+##### 6.6. Bảo mật.
 - bảo vệ private key của CA và server.
 - dùng chứng chỉ có thời gian ngắn và rotate định kỳ.
 - public registry (docker hub), không cần cài CA vì đã tin tường sẵn trong OS.
 
 #### 7. Packet Filtering & Firewalls.
-###### 7.1. Khái niệm.
+##### 7.1. Khái niệm.
 - Docker tự động cấu hình packet filtering thông qua iptables(Linux) hoặc tương đương trên các hệ thống khác.
 - Mục tiêu :
   - Cho phép container giao tiếp với nhau và tới internet.
   - Cô lập container khỏi các mạng không mong muốn.
   - Áp dụng NAT cho network driver bridge.
 - Firewall rules trong docker có thể bị xung đột với firewall hệ thống nếu không cấu hình đúng.
-###### 7.2. xử lý.
+##### 7.2. xử lý.
 - Khi cài Docker trên Linux :
   - nat : NAT outbound traffic từ container qua host.
   - filter : kiểm soát cho phép/khoá traffic vào/ra container.
@@ -435,7 +435,7 @@ docker --tlsverify \
   - DOCKER : cho pheps traffic container ↔ host.
   - DOCKER-USER (filter table): nơi người quản trị có thể đặt rule tuỳ chình, được áp dụng trước rule docker mặc định. 
   - DOCKER-ISOLATION-STAGE-1/STAGE-2 : tách biệt container trên các bridge network khác nhau.
-###### 7.3. Cấu trúc.
+##### 7.3. Cấu trúc.
 ```
 iptables -t nat -L -n
 # Chain DOCKER (2 references)
@@ -447,7 +447,7 @@ iptables -t filter -L -n
 # Chain DOCKER-USER (policy ACCEPT)
 #   - các rule tùy chỉnh do admin đặt
 ```
-###### 7.4. Thực nghiệm.
+##### 7.4. Thực nghiệm.
 
 1. chặn toàn bộ traffic ra Internet từ 1 container :
 ```
@@ -468,7 +468,7 @@ sudo iptables -A DOCKER-USER -s $CONTAINER_IP -j DROP
 ```
 sudo iptables -I DOCKER-USER -s 172.18.0.0/16 -d 172.18.0.0/16 -j DROP
 ```
-###### 7.5. Tích hợp FirewallD/UFW vơi Docker.
+##### 7.5. Tích hợp FirewallD/UFW vơi Docker.
 - Docker có thể bỏ qua các rule của UFW/FirewallD vì nó chèn iptables trực tiếp.
 - kíc hoạt iptables forwarding trong UFW :
 ```
@@ -476,7 +476,7 @@ sudo nano /etc/default/ufw
 DEFAULT_FORWARD_POLICY="ACCEPT"
 ```
 - chèn rule vào chain DOCKER-USER thay vì chain của UFW.
-###### 7.6. bảo mật.
+##### 7.6. bảo mật.
 - Không chỉnh trực tiếp chain `DOCKER` :
 - Chỉ đặt rule tuỳ chỉnh trong `DOCKER-USER` :
 - Cẩn thận khi xoá iptables rule vì có thể phá vỡ container networking.
@@ -487,11 +487,11 @@ sudo iptables -t nat -L -n -v
 ```
 
 #### 8. Debug & Trouleshooting.
-###### 8.1. Mục Tiêu.
+##### 8.1. Mục Tiêu.
 - Xác định nguyên nhân sự cố network liên quan tới container.
 - Kiểm tra cấu hình Network driver, iptables, DNS.
 - Phân biệt lỗi đến từ Docker hay hạ tầng hệ điều hành.
-###### 8.2. Các bước Debug.
+##### 8.2. Các bước Debug.
 
 1. Kiểm tra danh sách Network.
 2. Inspect Network.
@@ -501,14 +501,14 @@ sudo iptables -t nat -L -n -v
 6. kiểm tra Firewall & iptables.
 7. Kiểm tra xung đột cổng (port).
 8. debug Overlay Network / multi-host.
-###### 8.3. Công Cụ.
+##### 8.3. Công Cụ.
 - tcpdump : capture traffic giữa container host :
 ```
 ```
 - traceroute : xác định đường đi packet.
 - ethtool : Kiểm tra trạng thái interface.
 
-###### 8.4. Checklist xử lí sự cố.
+##### 8.4. Checklist xử lí sự cố.
 - Container có attach đúng chưa ?
 - Container có attach đúng network chưa?
 - IP container có hợp lệ với subnet network không?
@@ -517,17 +517,177 @@ sudo iptables -t nat -L -n -v
 - Có xung đột cổng với service khác không?
 - Nếu overlay → swarm cluster có ổn định không? 
 #### 9. Performance & Tuning.
-###### 9.1. Mục tiêu.
+##### 9.1. Mục tiêu.
 - giảm latency & tăng throughput network cho container.
 - Giảm overhead từ NAT, iptables.
 - Tối ưu cho workload real-time, HPC, hoặc high-throughput.
-###### 9.2. Yếu tố ảnh hưởng đến hiệu năng.
+##### 9.2. Yếu tố ảnh hưởng đến hiệu năng.
 
-###### 9.3. Kỹ thuật tuning.
+1. Loại network driver
+- Host → nhanh nhất, không NAT.
+- Bridge → có NAT, iptables → overhead.
+- Macvlan / ipvlan → bypass docker0 bridge, giảm latency.
+- Overlay → chậm nhất (VXLAN encapsulation, cross-node).
 
-###### 9.4. Giám sát hiệu năng.
+2. NAT & iptables
+- NAT table lớn làm giảm hiệu năng.
+- Quá nhiều rules gây CPU overhead khi lookup.
 
-###### 9.5. Checklist.
+3. MTU (Maximum Transmission Unit)
+- Overlay network thường cần giảm MTU (ví dụ: 1450) để tránh fragmentation.
+- MTU không đồng bộ → packet loss.
+
+4. CPU pinning & IRQ affinity
+- NIC IRQ nên phân phối hợp lý giữa các CPU core.
+- Container network processing chịu ảnh hưởng từ CPU scheduling.
+##### 9.3. Kỹ thuật tuning.
+1. Chọn driver phù hợp
+- Intra-host high performance → host hoặc macvlan.
+- Multi-host, nhưng yêu cầu tốc độ → cân nhắc ipvlan thay overlay.
+
+2. Giảm NAT overhead
+- Sử dụng --network host cho container cần tốc độ.
+- Hoặc dùng macvlan/ipvlan để container có IP riêng → không cần NAT.
+- Nếu bắt buộc dùng bridge:
+```
+sudo iptables -t nat -L -n -v
+# Dọn rules cũ không dùng
+```
+
+3. Điều chỉnh MTU
+Xác định MTU của NIC:
+```
+ip link show eth0
+```
+- Khi tạo network:
+```
+docker network create -d overlay --opt com.docker.network.driver.mtu=1450 mynet
+```
+
+4. Tối ưu sysctl
+Một số kernel parameters có thể cải thiện throughput:
+```
+# Tăng buffer TCP
+sysctl -w net.core.rmem_max=268435456
+sysctl -w net.core.wmem_max=268435456
+
+# Tăng backlog
+sysctl -w net.core.netdev_max_backlog=5000
+
+# Cho phép reuse TIME_WAIT socket
+sysctl -w net.ipv4.tcp_tw_reuse=1
+```
+(Áp dụng cẩn thận, test trước khi dùng production)
+
+5. CPU pinning cho container network stack
+```
+docker run --cpuset-cpus="2,3" --network host myapp
+```
+- Giúp giảm context switching.
+
+6. Giảm latency overlay network.
+- Dùng encrypted overlay (--opt encrypted) khi cần bảo mật, nhưng nếu không bắt buộc → tắt encryption để giảm overhead.
+- Giảm hop giữa nodes bằng cách bố trí container gần nhau (same rack, same switch).
+
+##### 9.4. Giám sát hiệu năng.
+- docker stats → CPU, memory.
+- ifstat, vnstat → bandwidth monitoring.
+- iperf3 → đo tốc độ giữa containers:
+```
+# Server
+docker run --rm -it --network mynet networkstatic/iperf3 -s
+# Client
+docker run --rm -it --network mynet networkstatic/iperf3 -c server_ip
+```
+##### 9.5. Checklist.
+- Chọn driver phù hợp → tránh overlay nếu không cần.
+- Giảm NAT → dùng host, macvlan, ipvlan.
+- Đồng bộ MTU giữa host và container.
+- Tối ưu sysctl & NIC IRQ.
+- Giám sát băng thông định kỳ, phát hiện bottleneck sớm.
 
 #### 10. Bảo mật.
-   
+##### 10.1. Mục tiêu bảo mật
+- Ngăn truy cập trái phép giữa các container hoặc từ bên ngoài.
+- Giảm bề mặt tấn công mạng.
+- Bảo vệ dữ liệu khi truyền tải (confidentiality & integrity).
+- Đáp ứng yêu cầu compliance (PCI-DSS, HIPAA, ISO27001…)
+##### 10.2. Mối đe dọa phổ biến.
+
+1. Container-to-container snooping.
+- Container đọc traffic của container khác trên cùng network.
+
+2. ARP Spoofing / MAC Flooding.
+- Thao túng bảng ARP để redirect traffic.
+
+3. Man-in-the-Middle (MitM).
+- Chặn/gửi dữ liệu giả mạo.
+
+4. Port scanning & service enumeration.
+- Container/attacker quét tìm cổng mở trong network.
+
+5. Data leakage.
+- Gửi nhầm dữ liệu ra ngoài qua network không mã hóa.
+##### 10.3. Nguyên tắc bảo mật.
+
+1. Nguyên tắc "Least Privilege".
+- Chỉ cho container join network thực sự cần thiết.
+- Mỗi microservice nên chạy trong network riêng biệt.
+
+2. Network segmentation.
+- Sử dụng custom bridge hoặc overlay để cô lập nhóm container.
+- Không để tất cả container vào bridge mặc định.
+```
+docker network create -d bridge frontend_net
+docker network create -d bridge backend_net
+```
+
+3. Kiểm soát traffic bằng iptables.
+- Docker tự tạo rules iptables, nhưng bạn có thể tùy chỉnh chain riêng để filter.
+
+Ví dụ: chặn container truy cập internet:
+```
+iptables -I FORWARD -o eth0 -s 172.18.0.0/16 -j DROP
+```
+
+4. Sử dụng --icc=false & --iptables=true.
+- `--icc=false` :chặn container giao tiếp với nhau trừ khi share network.
+- `--iptables=true` : đảm bảo Docker áp dụng rules tự động.
+5. Encryption in transit
+- Overlay network hỗ trợ mã hóa (VXLAN + IPsec):
+```
+docker network create -d overlay --opt encrypted secure_net
+```
+- Hoặc dùng mTLS giữa services.
+
+6. Giới hạn quyền root trong container.
+- Dùng user non-root:
+```
+USER appuser
+```
+- Hoặc chạy container với --cap-drop ALL và chỉ add capabilities cần thiết:
+```
+docker run --cap-drop ALL --cap-add NET_BIND_SERVICE myapp
+```
+
+7. Bảo vệ daemon API.
+- Mặc định Docker API chỉ listen local socket.
+- Nếu mở TCP (-H tcp://0.0.0.0:2376), bắt buộc dùng TLS + client cert:
+```
+dockerd --tlsverify --tlscacert=ca.pem --tlscert=server-cert.pem --tlskey=server-key.pem
+```
+
+8. IDS/IPS & Audit.
+- Kết hợp Suricata, Snort, hoặc Falco để phát hiện bất thường.
+- Audit logs network connections giữa containers.
+
+9. Bảo mật DNS.
+- Docker DNS nội bộ chỉ nên trả lời cho container trong cùng network.
+- Với sensitive service → disable Docker DNS, cấu hình thủ công `/etc/hosts`.
+##### 10.4. Checklist bảo mật Docker Networking.
+- Sử dụng network riêng cho từng nhóm service.
+- Bật encryption khi truyền qua overlay.
+- Chặn traffic không cần thiết bằng iptables.
+- Không chạy container với quyền root trừ khi bắt buộc.
+- Bảo vệ Docker API bằng TLS & xác thực client.
+- Theo dõi logs & network traffic để phát hiện bất thường.
