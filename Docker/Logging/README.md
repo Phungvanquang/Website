@@ -8,4 +8,4 @@
 ##### [7.6. Remote Logging Integration.]()
 ##### [7.7. Best Practices.](https://github.com/Phungvanquang/Website/blob/main/Docker/Logging/7.7.%20Best%20Practices.md)
 ##### [7.8. Logging Troubleshooting.](https://github.com/Phungvanquang/Website/blob/main/Docker/Logging/7.8.%20Logging%20Troubleshooting.md)
-##### [7.9. Advanced Topics.]()
+##### [7.9. Advanced Topics.](https://github.com/Phungvanquang/Website/blob/main/Docker/Logging/7.9.%20Advanced%20Topics.md)
