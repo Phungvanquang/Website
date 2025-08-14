@@ -1,6 +1,6 @@
 # Console
 
-- nhằm tương tác với javscript trong trình duyệt.
+Nhằm tương tác với javscript trong trình duyệt.
 
 #### 1. Console - Developer.
 - chạy javascript trực tiếp trên Internet.
