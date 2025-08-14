@@ -39,4 +39,3 @@ unmonitor(functionName)
 ```
 copy(document.cookie)
 ```
-- 
