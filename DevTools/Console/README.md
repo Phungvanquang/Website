@@ -17,5 +17,12 @@
 | `console.table()`                        | Hiển thị dữ liệu dạng bảng     | `console.table([{name:'A', age:20}, {name:'B', age:25}])`                                 |
 | `console.group()` / `console.groupEnd()` | Gom log theo nhóm              | `console.group('Users'); console.log('User1'); console.log('User2'); console.groupEnd();` |
 | `console.time()` / `console.timeEnd()`   | Đo thời gian thực thi          | `console.time('fetch'); fetch('/api'); console.timeEnd('fetch');`                         |
-1.2. Advanced Developer Tips.
-
+###### `Advanced Developer Tips.`
+- Inspect element trực tiếp: console.dir($0) → $0 là element đang chọn trong Elements tab.
+- Trigger JS events: document.querySelector('button').click() để simulate click.
+- Monitor function calls:
+```
+monitor(functionName)
+unmonitor(functionName)
+```
+- Break on exception: debug(functionName) → dừng khi hàm được gọi.
