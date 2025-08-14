@@ -26,3 +26,17 @@ monitor(functionName)
 unmonitor(functionName)
 ```
 - Break on exception: debug(functionName) → dừng khi hàm được gọi.
+### 2. Console - Pentesting.
+- Console là công cụ kiểm thử các lỗi client side.
+- kiểm tra kiếm trúc của DOM.
+- kiểm tra input đầu vào thủ công.
+- chèn XSS.
+
+`Lưu ý` : 
+- $0, $1, $2 : các element được chọn gần nhất trong elements tab.
+- `$_ `: giá trị về lệnh console trước đó.
+- copy() : copy trực tiếp từ console --> clipboard :
+```
+copy(document.cookie)
+```
+- 
