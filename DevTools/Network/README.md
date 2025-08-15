@@ -59,3 +59,33 @@ Ví dụ :
 ```
 {"username":"test","role":"admin"}
 ```
+
+#### Pentest Network Tab – 20 Điểm
+
+| #                            | Nhóm         | Kỹ thuật                    | Mục tiêu                               | Khai thác tiềm năng     |
+| ---------------------------- | ------------ | --------------------------- | -------------------------------------- | ----------------------- |
+| **Recon**                    |              |                             |                                        |                         |
+| 1                            | Recon        | Liệt kê toàn bộ request     | Xác định endpoint API & asset          | Endpoint mapping        |
+| 2                            | Recon        | Lọc XHR/Fetch               | Tìm API backend                        | API recon               |
+| 3                            | Recon        | Kiểm tra request HTTP/HTTPS | Phát hiện truyền không mã hóa          | MITM                    |
+| 4                            | Recon        | Xem header phản hồi         | Server info, framework, version        | Banner grabbing         |
+| 5                            | Recon        | Xem tham số URL             | Param discovery                        | IDOR, tampering         |
+| **Authentication & Session** |              |                             |                                        |                         |
+| 6                            | Auth         | Kiểm tra cookie             | Lộ session, thiếu flag Secure/HttpOnly | Session hijacking       |
+| 7                            | Auth         | Xem JWT/Token               | Token weak-signature                   | Token cracking          |
+| 8                            | Auth         | Test Re-auth flow           | Replay request đã auth                 | Auth bypass             |
+| 9                            | Auth         | Session Fixation            | Gửi request với session khác           | Privilege escalation    |
+| **Manipulation**             |              |                             |                                        |                         |
+| 10                           | Manipulation | Edit & Replay request       | Param tampering                        | Price manipulation      |
+| 11                           | Manipulation | Thay method GET ↔ POST      | Logic flaw test                        | Verb tampering          |
+| 12                           | Manipulation | Remove header               | Bypass kiểm tra server                 | Security control bypass |
+| 13                           | Manipulation | Thay đổi Content-Type       | Gây lỗi parsing                        | Deserialization, DoS    |
+| 14                           | Manipulation | Sửa body JSON/XML           | Data injection                         | Mass assignment         |
+| **Security Testing**         |              |                             |                                        |                         |
+| 15                           | Security     | Test CORS                   | Cross-domain data leak                 | CORS misconfig          |
+| 16                           | Security     | Test CSRF                   | Replay POST từ domain khác             | CSRF attack             |
+| 17                           | Security     | Cache Poison Test           | Sửa header cache-control               | Cache poisoning         |
+| 18                           | Security     | HSTS check                  | Không bật HSTS                         | MITM risk               |
+| 19                           | Security     | API Rate Limit Test         | Gửi nhiều request liên tục             | Brute-force, DoS        |
+| 20                           | Security     | File Upload Tampering       | Replay upload với file độc hại         | Malware upload          |
+
