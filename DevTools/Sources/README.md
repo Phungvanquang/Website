@@ -70,7 +70,7 @@ Ví dụ: sửa JS để bỏ kiểm tra quyền admin trên client.
 
 #### 4. Thực hành.
 
-Ví dụ: Một web app kiểm tra quyền admin ở client trước khi gửi request:
+Ví dụ 1: Một web app kiểm tra quyền admin ở client trước khi gửi request:
 
 if (userRole === 'admin') {
     fetch('/admin/data')
@@ -79,3 +79,33 @@ if (userRole === 'admin') {
 ```
 ➡ Pentester mở Sources tab → tìm file JS → sửa if (userRole === 'admin') thành if (true) → lưu Overrides → reload → truy cập dữ liệu admin.
 ```
+Ví dụ 2:  giả sử đang test 1 web app với login trong js:
+```
+if (userRole === 'admin') {
+    fetch('/admin/secret-data');
+} else {
+    alert('Access Denied');
+}
+```
+
+Pentest Steps:
+
+1. Mở Sources tab → tìm file JS chứa userRole.
+
+2. Pretty Print để dễ đọc code.
+
+3. Bật Overrides → sửa code thành:
+
+```
+if (true) {
+    fetch('/admin/secret-data');
+}
+```
+
+4. Reload trang → Kiểm tra xem có truy cập được dữ liệu admin không.
+
+Hoặc nếu muốn debug runtime thay vì sửa file:
+- Đặt breakpoint tại dòng if (userRole === 'admin').
+- Reload trang.
+- Khi breakpoint kích hoạt → mở Console → gán userRole = 'admin'.
+- Tiếp tục chạy code → request /admin/secret-data được gửi đi.
