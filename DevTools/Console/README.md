@@ -39,3 +39,16 @@ unmonitor(functionName)
 ```
 copy(document.cookie)
 ```
+#### Pentest Console Tab – 20 Điểm
+
+| #                | Nhóm         | Kỹ thuật            | Mục tiêu               | Payload mẫu           |
+| ---------------- | ------------ | ------------------- | ---------------------- | --------------------- |
+| **Recon**        |              |                     |                        |                       |
+| 1                | Recon        | Xem cookie          | Kiểm tra session leak  | `document.cookie`     |
+| 2                | Recon        | Xem localStorage    | Tìm token/API key      | `localStorage`        |
+| 3                | Recon        | Xem sessionStorage  | Thông tin phiên        | `sessionStorage`      |
+| 4                | Recon        | Tìm biến global     | Lộ dữ liệu nội bộ      | `Object.keys(window)` |
+| 5                | Recon        | Liệt kê form        | Hidden field discovery | `document.forms`      |
+| **Manipulation** |              |                     |                        |                       |
+| 6                | Manipulation | Sửa biến giá        | Price tampering        | `price = 0;`          |
+| 7                | Manipulation | Ghi đè hàm validate | B                      |                       |
