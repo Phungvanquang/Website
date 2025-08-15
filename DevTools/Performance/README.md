@@ -61,3 +61,27 @@ if (currentUser.isAdmin) payload.role = "admin";
 - Website có script chạy ẩn gây CPU cao.
 - Mở Performance → Record vài giây khi không thao tác gì.
 - Thấy function mineCrypto() chạy liên tục → phát hiện crypto miner.
+#### Checklist 20 Điểm – Pentest Performance Tab
+
+| #                              | Nhóm      | Kỹ thuật                                   | Mục tiêu Pentest                | Khai thác tiềm năng              |
+| ------------------------------ | --------- | ------------------------------------------ | ------------------------------- | -------------------------------- |
+| **Recon – Thu thập thông tin** |           |                                            |                                 |                                  |
+| 1                              | Recon     | Record toàn bộ phiên load trang            | Xác định script & API endpoint  | Lộ endpoint ẩn                   |
+| 2                              | Recon     | Xem call stack JS                          | Tìm tên hàm nhạy cảm            | Reverse engineering              |
+| 3                              | Recon     | Phân tích thời gian API call               | Xác định endpoint chậm          | DoS target                       |
+| 4                              | Recon     | Tìm request bất thường khi idle            | Phát hiện polling/heartbeat     | Data leak detection              |
+| 5                              | Recon     | Xem script inline                          | Tìm key/token hardcoded         | Key exposure                     |
+| **Logic & Manipulation**       |           |                                            |                                 |                                  |
+| 6                              | Logic     | So sánh performance giữa role user & admin | Phát hiện API ẩn cho admin      | Privilege escalation             |
+| 7                              | Logic     | Phân tích lazy-loading script              | Truy cập sớm module chưa public | Hidden feature access            |
+| 8                              | Logic     | Ghi lại flow giao dịch                     | Mô phỏng & tái chạy flow        | Replay attack                    |
+| 9                              | Logic     | Tìm điểm load script từ domain khác        | Chèn payload qua supply-chain   | Dependency hijack                |
+| 10                             | Logic     | Xem hàm JS lặp nhiều lần                   | Lợi dụng để brute-force         | Rate-limit bypass                |
+| **Injection & Exploitation**   |           |                                            |                                 |                                  |
+| 11                             | Injection | Phát hiện DOM manipulation dynamic         | Chèn payload test XSS           | DOM XSS                          |
+| 12                             | Injection | Xem sự kiện `postMessage`                  | Inject message giả              | Clickjacking / Data exfiltration |
+| 13                             | Injection | Tìm script eval hoặc Function()            | Chèn code tùy ý                 | RCE client-side                  |
+| 14                             | Injection | Xem API gửi dữ liệu nhạy cảm không mã hóa  | MITM/Replay                     | Data theft                       |
+| 15                             | Injection | Xác định điểm JS bị block lâu              | Chèn payload gây DoS            | Client freeze                    |
+| **Security Testing**           |           |                                            |                                 |                                  |
+| 16                             | Security  |                                            |                                 |                                  |
