@@ -11,5 +11,5 @@
 #### [8.9. Read-only Filesystem.](https://github.com/Phungvanquang/Website/blob/main/Docker/Security/8.9.%20Read-only%20Filesystem.md)
 #### [8.10. Secrets Management.](https://github.com/Phungvanquang/Website/blob/main/Docker/Security/8.10.%20Secrets%20Management.md)
 #### [8.11. Security Scanning & Compliance.](https://github.com/Phungvanquang/Website/blob/main/Docker/Security/8.11.%20Security%20Scanning%20&%20Compliance.md)
-#### [8.12. Image Hardening.]()
+#### [8.12. Image Hardening.](https://github.com/Phungvanquang/Website/blob/main/Docker/Security/8.12.%20Image%20Hardening.md)
 #### [8.13. Best Practices for Docker Security.]()
