@@ -11,48 +11,11 @@
 #### [6. Container Lifecycle.](https://github.com/Phungvanquang/Website/tree/main/Docker/Container%20Lifecycle)
 #### [7. Logging.]()
 #### [8. Security.]()
-- Rootless mode
-- AppArmor
-- User namespace
-- Protect daemon socket
-- Seccomp profiles
-- Content trust & Notary
-- Antivirus & Docker
 #### [9. Build System & BuildKit.]()
-- Dockerfile cơ bản
-- Multi-stage build
-- Variables & Secrets
-- Multi-platform build
-- Build cache (local, registry, inline, s3, azure, github)
-- Exporters
-- Attestations & SBOM
-- BuildKit config
-- Best practices
 #### [10. Docker Compose.]()
-- Plugin vs Standalone
-- Quickstart
-- Service definition
-- Env variables
-- Networking in Compose
-- Secrets
-- GPU support
-- Production usage
-- Merge/Extend/Include
-- OCI artifact applications
 #### [11. Swarm Mode.]()
-- Create & manage swarm
-- Add nodes
-- Deploy services & stacks
-- Scale & rolling updates
-- Swarm security (PKI)
-- Secrets & configs
-- Routing mesh
-- Raft consensus
 #### [12. Plugins.]()
-- Access authorization
-- Log driver plugins
-- Network driver plugins
-- Volume plugins
+
 ----------------------------------------------------------------------------------
 # I. Tổng quan.
 ## 1. khái niệm. 
