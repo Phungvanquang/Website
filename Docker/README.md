@@ -9,7 +9,7 @@
 #### [4. Storage.](https://github.com/Phungvanquang/Website/blob/main/Docker/Storage/README.md)
 #### [5. Networking.](https://github.com/Phungvanquang/Website/blob/main/Docker/Networking/README.md)
 #### [6. Container Lifecycle.](https://github.com/Phungvanquang/Website/tree/main/Docker/Container%20Lifecycle)
-#### [7. Logging.]()
+#### [7. Logging.](https://github.com/Phungvanquang/Website/tree/main/Docker/Plugins)
 #### [8. Security.]()
 #### [9. Build System & BuildKit.]()
 #### [10. Docker Compose.]()
