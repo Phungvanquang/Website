@@ -10,4 +10,4 @@
 
 **[5. MSSQL]()**
 
-**[6. Oracle]()**
+**[6. Oracle Database](https://github.com/Phungvanquang/Website/blob/main/Database/SQL-based/6.%20Oracle%20Database.md)**
