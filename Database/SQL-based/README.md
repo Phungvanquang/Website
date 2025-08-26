@@ -1,6 +1,6 @@
 # SQL-based
 
-**[1. MySql.]()**
+**[1. MySQL](https://github.com/Phungvanquang/Website/blob/main/Database/SQL-based/1.%20MySQL.md)**
 
 **[2. MariaDB.]()**
 
