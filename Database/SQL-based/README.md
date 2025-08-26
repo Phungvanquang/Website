@@ -6,7 +6,7 @@
 
 **[3. PostgreSQL](https://github.com/Phungvanquang/Website/blob/main/Database/SQL-based/3.%20PostgreSQL.md)**
 
-**[4. SQLite]()**
+**[4. SQLite](https://github.com/Phungvanquang/Website/blob/main/Database/SQL-based/4.%20SQLite.md)**
 
 **[5. MSSQL]()**
 
