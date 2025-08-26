@@ -1,6 +1,6 @@
 # SQL-based
 
-**[1.MySql.]()**
+**[1. MySql.]()**
 
 **[2. MariaDB.]()**
 
