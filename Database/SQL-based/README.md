@@ -4,7 +4,7 @@
 
 **[2. MariaDB](https://github.com/Phungvanquang/Website/blob/main/Database/SQL-based/2.%20MariaDB.md)**
 
-**[3. PostgreSQL]()**
+**[3. PostgreSQL](https://github.com/Phungvanquang/Website/blob/main/Database/SQL-based/3.%20PostgreSQL.md)**
 
 **[4. SQLite]()**
 
