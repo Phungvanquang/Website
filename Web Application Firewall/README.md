@@ -39,17 +39,17 @@ ví dụ : `GET /login?username=admin' OR '1'='1&password=...`
 
 ## 5. Các hãng cung cấp WAF.
 ### 5.1. Hardware / Appliance WAF.
-- F5 Networks (F5 ASM / Advanced WAF)>
-- Impreva SecureSphere.
-- Citrix Netscaler.
-- Barracuda WAF.
+- [F5 Networks (F5 ASM / Advanced WAF)>]()
+- [Impreva SecureSphere.]()
+- [Citrix Netscaler.]()
+- [Barracuda WAF.]()
 ## 5.2. Cloud WAF (SaaS).
-- Cloudflare WAF.
-- Akamai kona Site Defender.
-- AWS WAF.
-- Google cloud Armor (WAF).
+- [Cloudflare WAF.]()
+- [Akamai kona Site Defender.]()
+- [AWS WAF.]()
+- [Google cloud Armor (WAF).]()
 ## 5.3. Open- Source WAF.
-- ModSecurity (OWasp CRS).
-- NAXSI (nginx Anti XSS & SQL injection).
-- OpenResty lua WAF.
+- [ModSecurity (OWasp CRS).]()
+- [NAXSI (nginx Anti XSS & SQL injection).]()
+- [OpenResty lua WAF.]()
   
