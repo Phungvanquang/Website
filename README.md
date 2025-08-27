@@ -187,7 +187,7 @@
 
 **[6. MIME Types, Status Codes (1xx–5xx)]()**
 
-## X. Kiến trúc hệ thống / mở rộng
+## X. Kiến trúc hệ thống / mở rộng.
 **[1. Monolithic vs Microservices Architecture]()**
 
 **[2. Serverless Functions (AWS Lambda, Vercel)]()**
@@ -197,6 +197,7 @@
 **[4. CQRS / DDD (Domain-Driven Design)]()**
 
 **[5. API Gateway (Kong, AWS API Gateway)]()**
+## XI. Web Application Firewall.
 
 ### Tài liệu tham khảo
 - https://chatgpt.com/s/dr_680ee0b3c6c4819197e6b53ae34bed79
