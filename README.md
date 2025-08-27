@@ -46,7 +46,7 @@
 
 ## [III. Database.](https://github.com/Phungvanquang/Website/tree/main/Database)
 
-### 1. SQL-based.
+### [1. SQL-based.](https://github.com/Phungvanquang/Website/tree/main/Database/SQL-based)
 
 **[1.MySql.]()**
 
@@ -60,7 +60,7 @@
 
 **[6. Oracle]()**
 
-### 2. NoSql.
+### [2. NoSql.](https://github.com/Phungvanquang/Website/tree/main/Database/NoSQL)
 
 **[1. MongoDB]()**
 
