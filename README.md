@@ -197,7 +197,7 @@
 **[4. CQRS / DDD (Domain-Driven Design)]()**
 
 **[5. API Gateway (Kong, AWS API Gateway)]()**
-## XI. Web Application Firewall.
+## [XI. Web Application Firewall.](https://github.com/Phungvanquang/Website/tree/main/Web%20Application%20Firewall)
 
 ### Tài liệu tham khảo
 - https://chatgpt.com/s/dr_680ee0b3c6c4819197e6b53ae34bed79
