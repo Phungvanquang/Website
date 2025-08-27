@@ -4,7 +4,7 @@
 
 **[2. Redis](https://github.com/Phungvanquang/Website/blob/main/Database/NoSQL/2.%20Redis.md)**
 
-**[3. Cassandra]()**
+**[3. Cassandra](https://github.com/Phungvanquang/Website/blob/main/Database/NoSQL/3.%20Cassandra.md)**
 
 **[4. DynamoDB (AWS)]()**
 
