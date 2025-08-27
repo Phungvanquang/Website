@@ -6,7 +6,7 @@
 
 **[3. Cassandra](https://github.com/Phungvanquang/Website/blob/main/Database/NoSQL/3.%20Cassandra.md)**
 
-**[4. DynamoDB (AWS)]()**
+**[4. DynamoDB (AWS)](https://github.com/Phungvanquang/Website/blob/main/Database/NoSQL/4.%20DynamoDB.md)**
 
 **[5. Neo4j]()**
 
