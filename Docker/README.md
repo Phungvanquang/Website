@@ -3,7 +3,7 @@
 
 ### 📑 Mục lục Docker
 
-### Phần chính
+## Phần A : 
 
 0. [ Kiến thức nền tảng.](https://github.com/Phungvanquang/Website/tree/main/Docker/Ki%E1%BA%BFn%20th%E1%BB%A9c%20n%E1%BB%81n%20t%E1%BA%A3ng)
 1. [ Cài đặt & Chuẩn bị.]()
@@ -18,8 +18,8 @@
 10. [ Docker Compose.](https://github.com/Phungvanquang/Website/tree/main/Docker/Docker%20compose)
 11. [ Swarm Mode.](https://github.com/Phungvanquang/Website/tree/main/Docker/Swarm%20Mode)
 12. [ Plugins.](https://github.com/Phungvanquang/Website/tree/main/Docker/Plugins)
-### I. Tổng quan
-
+## Phần B
+### I. Tổng Quan.
 1. [Khái niệm](#1-khái-niệm)
 2. [Kiến trúc Docker](#2-kiến-trúc-docker)
 3. [Images](#3-images)
@@ -27,7 +27,7 @@
 5. [Docker Compose](#5-docker-compose)
 6. [Docker Hub](#6-docker-hub)
 ----------------------------------------------------------------------------------
-# I. Tổng quan.
+# I. Tổng Quan.
 ## 1. khái niệm. 
 - `Docker` là một nền tảng mở để phát triển, vận chuyển và chạy các ứng dụng. Docker cho phép bạn tách biệt các ứng dụng của mình khỏi cơ sở hạ tầng để bạn có thể phân phối phần mềm nhanh chóng. Với Docker, bạn có thể quản lý cơ sở hạ tầng của mình theo cùng cách bạn quản lý các ứng dụng của mình. Bằng cách tận dụng các phương pháp của Docker để vận chuyển, thử nghiệm và triển khai mã, bạn có thể giảm đáng kể độ trễ giữa việc viết mã và chạy mã trong sản xuất.
 - Docker cho phép bạn tách biệt các ứng dụng của mình khỏi cơ sở hạ tầng để bạn có thể phân phối phần mềm nhanh chóng. Với Docker, bạn có thể quản lý cơ sở hạ tầng của mình theo cùng cách bạn quản lý các ứng dụng của mình.
@@ -45,8 +45,7 @@
 ### 5. Docker Compose
 - Docker Compose là công cụ để xác định và chạy các ứng dụng đa container. Đây là chìa khóa để mở khóa trải nghiệm phát triển và triển khai hợp lý và hiệu quả.
 - Compose đơn giản hóa việc kiểm soát toàn bộ ngăn xếp ứng dụng của bạn, giúp bạn dễ dàng quản lý các dịch vụ, mạng và khối lượng trong một tệp cấu hình YAML dễ hiểu. Sau đó, chỉ bằng một lệnh, bạn có thể tạo và khởi động tất cả các dịch vụ từ tệp cấu hình của mình.
-
-\- Compose hoạt động trong mọi môi trường; sản xuất, dàn dựng, phát triển, thử nghiệm cũng như quy trình làm việc CI. Nó cũng có các lệnh để quản lý toàn bộ vòng đời của ứng dụng của bạn:
+- Compose hoạt động trong mọi môi trường; sản xuất, dàn dựng, phát triển, thử nghiệm cũng như quy trình làm việc CI. Nó cũng có các lệnh để quản lý toàn bộ vòng đời của ứng dụng của bạn:
 
 + Bắt đầu, dừng và xây dựng lại các dịch vụ
 + Xem trạng thái của các dịch vụ đang chạy
