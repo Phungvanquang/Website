@@ -1,7 +1,7 @@
 # Web Protocols - Network Concepts
 
 
-1. [ Core Protocols – Giao thức cốt lõi]()
+1. [ Core Protocols – Giao thức cốt lõi](https://github.com/Phungvanquang/Website/tree/main/Web%20Protocols%20-%20Network%20Concepts/Core%20Protocols)
 2. [ Realtime Communication – Giao tiếp thời gian thực]()
 3. [ Content Delivery & Performance – Phân phối nội dung & Hiệu năng]()
 4. [ Security & Trust – Bảo mật & Tin cậy]()
