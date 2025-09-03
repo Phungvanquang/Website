@@ -174,7 +174,7 @@
 
 **[3. GitHub, GitLab, Bitbucket]()**
 
-## IX. Web Protocols / Network Concepts
+## [IX. Web Protocols / Network Concepts](https://github.com/Phungvanquang/Website/tree/main/Web%20Protocols%20-%20Network%20Concepts)
 [1. **Core Protocols** – Giao thức cốt lõi]()
 * TCP/IP
 * DNS, DNSSEC
@@ -242,9 +242,7 @@
 * Container Orchestration (Kubernetes, Docker Swarm)
 * Infrastructure as Code (Terraform, Ansible)
 * Serverless (AWS Lambda, GCP Cloud Functions, Azure Functions)
-
-
-
+  
 ## X. Kiến trúc hệ thống / mở rộng.
 **[1. Monolithic vs Microservices Architecture]()**
 
