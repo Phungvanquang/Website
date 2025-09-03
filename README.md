@@ -176,73 +176,23 @@
 
 ## [IX. Web Protocols / Network Concepts](https://github.com/Phungvanquang/Website/tree/main/Web%20Protocols%20-%20Network%20Concepts)
 [1. **Core Protocols** – Giao thức cốt lõi]()
-* TCP/IP
-* DNS, DNSSEC
-* HTTP/1.1, HTTP/2, HTTP/3 (QUIC)
-* FTP, SFTP (bổ trợ truyền tải)
+
 [2. **Realtime Communication** – Giao tiếp thời gian thực]()
 
-* WebSocket
-* WebRTC
-* gRPC (bi-directional streaming)
-* SSE (Server-Sent Events)
 [3. **Content Delivery & Performance** – Phân phối nội dung & Hiệu năng]()
 
-* CDN (Content Delivery Network)
-* Reverse Proxy (Nginx, HAProxy, Envoy)
-* API Gateway (Kong, Traefik, Apigee)
-* Load Balancing
-* Caching (Cache-Control, ETag, Last-Modified)
-* Compression (Gzip, Brotli, Zstd)
-* Edge Computing (Cloudflare Workers, Lambda\@Edge)
 [4. **Security & Trust** – Bảo mật & Tin cậy]()
 
-* SSL/TLS Certificates, PKI
-* HSTS (HTTP Strict Transport Security)
-* CSP (Content Security Policy)
-* OAuth 2.0 / OpenID Connect
-* JWT (JSON Web Token)
-* CORS (Cross-Origin Resource Sharing)
-* WAF (Web Application Firewall)
-* Rate Limiting / DDoS Protection
-* ACME Protocol (Let’s Encrypt)
 [5. **API & Data Exchange** – API & Trao đổi dữ liệu]()
 
-* REST API
-* GraphQL
-* SOAP
-* JSON-RPC, XML-RPC
-* OData
-* gRPC (API dạng binary)
 [6. **Web Standards & Optimization** – Chuẩn & Tối ưu hóa Web]()
 
-* MIME Types
-* HTTP Status Codes (1xx–5xx)
-* Content Negotiation (ngôn ngữ, encoding, media type)
-* Service Workers
-* PWA (Progressive Web Apps)
-* Offline-first Architecture
-* Internationalization (i18n) & Localization (l10n)
 [7. **Service Networking & Distributed Systems** – Dịch vụ & Hệ thống phân tán]()
 
-* Service Mesh (Istio, Linkerd)
-* Message Queues (Kafka, RabbitMQ, NATS)
-* Event Streaming (Apache Pulsar)
-* Pub/Sub Systems
-* Microservices Communication
 [8. **Monitoring & Observability** – Giám sát & Quan sát hệ thống]()
 
-* Logs (Access Logs, Error Logs)
-* Metrics (Prometheus, OpenTelemetry)
-* Distributed Tracing (Jaeger, Zipkin)
-* Application Performance Monitoring (Datadog, New Relic, Elastic APM)
 [9. **Deployment & Infrastructure Integration** – Triển khai & Tích hợp hạ tầng]()
 
-* CI/CD Pipelines (GitHub Actions, GitLab CI, Jenkins)
-* Container Orchestration (Kubernetes, Docker Swarm)
-* Infrastructure as Code (Terraform, Ansible)
-* Serverless (AWS Lambda, GCP Cloud Functions, Azure Functions)
-  
 ## X. Kiến trúc hệ thống / mở rộng.
 **[1. Monolithic vs Microservices Architecture]()**
 
