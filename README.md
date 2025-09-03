@@ -154,6 +154,8 @@
 
 **[12. Monitoring Tools (Grafana, Prometheus, ELK Stack)]()**
 
+**[13. MIME Types, Status Codes (1xx–5xx)](https://github.com/Phungvanquang/Website/tree/main/Status%20Codes)**
+
 ## VII. Testing
 
 **[1. Unit Test (Jest, Mocha, Pytest)]()**
