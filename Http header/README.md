@@ -44,7 +44,7 @@
   - [41.Upgrade]()
   - [42.X-Requested-With]()
   - [43.X-Forwarded-For]()
-  - [44.X-Forwarded-Proto]()
+  - [44.X-Forwarded-Proto](https://github.com/Phungvanquang/Website/blob/main/Http%20header/X-Forwarded-Proto.md)
   - [45.Front-End-Https]()
   - [46.X-Http-Method-Override]()
   - [47.Sec-GPC]()
