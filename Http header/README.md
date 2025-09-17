@@ -105,7 +105,7 @@
 ### [Transfer-Encoding]()
 ### [Tk]()
 ### [Upgrade]()
-  - 🤝[Vary]()
+  - 🤝[Vary](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Vary.md)
 ### [Permanent]()
 ### [Via]()
 ### [Warning]()
