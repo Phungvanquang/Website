@@ -105,7 +105,7 @@
 ### [Transfer-Encoding]()
 ### [Tk]()
 ### [Upgrade]()
-### [Vary]()
+  - 🤝[Vary]()
 ### [Permanent]()
 ### [Via]()
 ### [Warning]()
