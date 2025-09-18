@@ -8,7 +8,7 @@
   - [5.X-Origin]()
   - [6.Origin]()
   - 🤝[7.Sec-Ch-Ua-Platform](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Sec-CH-UA-Platform.pdf)
-  - [8.Sec-Ch-Ua-Mobile]()
+  - 🤝[8.Sec-Ch-Ua-Mobile](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Sec-Ch-Ua-Mobile.pdf)
   - 🤝[9.User-Agent](https://github.com/Phungvanquang/Website/blob/main/Http%20header/User-agent.pdf)
   - [10.Content-Type]()
   - 🤝[11.Accept](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Accept.pdf)
