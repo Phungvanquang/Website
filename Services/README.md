@@ -45,5 +45,7 @@
 
 **[20. URI]()**
 
-**[21.Double Submit Cookies,Origin/Referer Validation,Custom Headers + CORS]()**
+**[21. Double Submit Cookies,Origin/Referer Validation,Custom Headers + CORS]()**
+
+**[22. favicon.ico](https://github.com/Phungvanquang/Website/blob/main/Services/favicon.md)**
 
