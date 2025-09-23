@@ -49,3 +49,5 @@
 
 **[22. favicon.ico](https://github.com/Phungvanquang/Website/blob/main/Services/favicon.md)**
 
+**[23. XML resource](https://github.com/Phungvanquang/Website/blob/main/Services/XML%20resource.pdf)**
+
