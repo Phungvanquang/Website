@@ -70,7 +70,7 @@
 ### [Access-Control-Allow-Headers]()
 ### [Accept-Patch]()
 ### [Accept-Ranges]()
-### [Age]()
+### [Age](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Age.md)
 ### [Allow]()
 ### [Alt-Svc]()
 - 🤝[Cache-Control](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Cache-Control.pdf)
