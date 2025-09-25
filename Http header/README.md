@@ -31,8 +31,8 @@
   - [28.X-Client-Data]()
   - 🤝[29.Sec-Fetch-Site](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Sec-Fetch-Site.md)
   - 🤝[30.Sec-Fetch-Mode](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Sec-Fetch-Mode.md)
-  - [31.Sec-Fetch-Dest]()
-  - [32.Priority]()
+  - 🤝[31.Sec-Fetch-Dest](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Sec-Fetch-Dest.md)
+  - [32.Sec-Fetch-User]()
   - [33.Connection]()
   - 🤝[34.Upgrade-Insecure-Requests](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Upgrade-Insecure-Requests.md)
   - [35.Date]()
@@ -59,6 +59,7 @@
   - 🤝[56.X-Forwarded-Host](https://github.com/Phungvanquang/Website/blob/main/Http%20header/X-Forwarded-Host.pdf)
   - 🤝[57.X-Rewrite-Url](https://github.com/Phungvanquang/Website/blob/main/Http%20header/X-Rewrite-Url.pdf)
   - [58.X-Original-Url](https://github.com/Phungvanquang/Website/blob/main/Http%20header/X-Original-Url.pdf)
+  - [59. Priority]()
 # [II. Các trường phản hồi chuẩn.]()
 
 ### [Accept]()
