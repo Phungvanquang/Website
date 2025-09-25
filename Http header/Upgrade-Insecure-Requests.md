@@ -2,7 +2,7 @@
 
 
 
-- Upgrade-Insecure-Requests gửi tín hiệu đến máy chhur cho biết tuỳ chọn của máy khác đối với phản hồi được mã hoá và xác thực máy khách có thể xử lí thành công lênh CSP.
+- Upgrade-Insecure-Requests gửi tín hiệu đến máy chủ cho biết tuỳ chọn của máy khác đối với phản hồi được mã hoá và xác thực máy khách có thể xử lí thành công lênh CSP.
 
 **Cú pháp  Upgrade-Insecure-Requests : 1**
 
