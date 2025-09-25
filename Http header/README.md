@@ -32,7 +32,7 @@
   - 🤝[29.Sec-Fetch-Site](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Sec-Fetch-Site.md)
   - 🤝[30.Sec-Fetch-Mode](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Sec-Fetch-Mode.md)
   - 🤝[31.Sec-Fetch-Dest](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Sec-Fetch-Dest.md)
-  - [32.Sec-Fetch-User]()
+  - [32.Sec-Fetch-User](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Sec-Fetch-User.md)
   - [33.Connection]()
   - 🤝[34.Upgrade-Insecure-Requests](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Upgrade-Insecure-Requests.md)
   - [35.Date]()
