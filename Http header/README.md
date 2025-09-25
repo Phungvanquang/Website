@@ -11,7 +11,7 @@
   - 🤝[8.Sec-Ch-Ua-Mobile](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Sec-Ch-Ua-Mobile.pdf)
   - 🤝[9.User-Agent](https://github.com/Phungvanquang/Website/blob/main/Http%20header/User-agent.pdf)
   - [10.Content-Type]()
-  - 🤝[11.Accept](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Accept.pdf)
+  - 🤝[11.Accept](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Accept.md)
   - [12.Authorization]()
   - [13.Referer]()
   - 🤝[14.Accept-Encoding](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Accept-Encoding.pdf)
