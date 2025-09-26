@@ -3,7 +3,7 @@
 ### 1. Khái niệm
 
 * `Origin` là một HTTP request header **do trình duyệt tự động thêm** khi gửi request cross-origin (hoặc trong một số tình huống same-origin nhưng nhạy cảm).
-* Nó chỉ định **nguồn gốc (origin)** của request: bao gồm **scheme (http/https), host, port**.
+* Nó chỉ định **nguồn gốc (origin)** của request : bao gồm **scheme (http/https), host, port**.
 * Không giống `Referer`, header `Origin` **không chứa path** hay query string → chỉ mang phần **origin**.
 
 Ví dụ:
