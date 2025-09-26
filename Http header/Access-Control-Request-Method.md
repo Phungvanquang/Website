@@ -1,4 +1,4 @@
-# Access-Control-Request-Method` header
+# Access-Control-Request-Method
 
 ### 1. Khái niệm
 
