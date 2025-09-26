@@ -64,7 +64,7 @@
 
 ### [Accept]()
 ### [Access-Control-Allow-Origin]()
-### [Access-Control-Allow-Credentials]()
+### [Access-Control-Allow-Credentials](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Access-Control-Allow-Credentials.md)
 ### [Access-Control-Expose-Headers]()
 ### [Access-Control-Max-Age]()
 ### [Access-Control-Allow-Methods]()
