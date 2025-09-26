@@ -11,10 +11,31 @@ Ví dụ:
 ```
 Origin: https://example.com
 ```
+### 2. các giá trị Directives.
 
+- `Null` :
+  - Xuất hiện khi request có nguồn gốc "opaque" (không thể xác định chính xác).
+  - Ví dụ : request được tạo từ sandboxed iframe hoặc từ file file://.
+  - Lúc này server thường sẽ từ chối hoặc có chính sách đặc biệt.
+  
+- `<scheme>` :
 
+  - Giao thức của nguồn gốc (protocol).
+  - Ví dụ: http, https, ws, wss.
+  
+- `<hostname>` :
 
-### 2. Hoạt động
+  - Tên miền hoặc địa chỉ IP của nguồn gốc gửi request.
+  - Ví dụ: example.com, 192.168.1.10.
+    
+- `<port>` :
+
+  - Nếu bỏ qua → trình duyệt ngầm hiểu port mặc định cho scheme.
+    - `http → 80`
+    - `https → 443`
+  - Nếu có port khác thì phải ghi rõ : https://example.com:8443.
+  
+### 3. Hoạt động
 
 * Khi bạn gửi request qua **CORS (Cross-Origin Resource Sharing)** hoặc các hành động tiềm ẩn nguy cơ (POST, PUT, DELETE, WebSocket handshake...), trình duyệt sẽ kèm theo header `Origin`.
 * Server sẽ dựa vào `Origin` để:
@@ -23,7 +44,7 @@ Origin: https://example.com
   * So sánh với `Access-Control-Allow-Origin`.
 * Nếu request **same-origin** và không nhạy cảm → trình duyệt có thể không gửi `Origin`.
 
-### 3. Cấu trúc (Syntax)
+### 4. Cấu trúc (Syntax)
 
 ```
 Origin: <scheme> "://" <host> [ ":" <port> ]
@@ -35,7 +56,7 @@ Ví dụ:
 * `Origin: http://evil.com:8080`
 
 
-### 4. Trường hợp sử dụng
+### 5. Trường hợp sử dụng
 
 * **CORS**
   Khi frontend (ở `https://mysite.com`) gọi API ở `https://api.othersite.com`, request sẽ có:
@@ -58,13 +79,13 @@ Ví dụ:
   Origin: https://attacker.com
   ```
 
-### 5. So sánh với `Referer`
+### 6. So sánh với `Referer`
 
 * **Referer**: chứa full URL (bao gồm path, query, fragment).
 * **Origin**: chỉ chứa *origin* (scheme + host + port).
 * → `Origin` bảo mật hơn vì tránh leak thông tin nhạy cảm trong URL.
 
-### 6. Ví dụ request với `Origin`
+### 7. Ví dụ request với `Origin`
 
 ```http
 POST /api/data HTTP/1.1
@@ -81,7 +102,7 @@ Nếu server muốn chấp nhận → phải trả về:
 Access-Control-Allow-Origin: https://app.client.com
 ```
 
-### 7. Mục đích bảo mật
+### 8. Mục đích bảo mật
 
 * Giúp server **xác định nguồn gốc của request**, ngăn:
 
