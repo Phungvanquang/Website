@@ -70,6 +70,7 @@
   - 🤝[Access-Control-Allow-Methods](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Access-Control-Allow-Methods.md)
   - 🤝[Access-Control-Allow-Headers](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Access-Control-Allow-Headers.md)
   - 🤝[Access-Control-Request-Headers](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Access-Control-Request-Headers.md)
+  - 🤝[Access-Control-Request-Method](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Access-Control-Request-Method.md)
 ### [Accept-Patch]()
 ### [Accept-Ranges]()
   - 🤝[Age](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Age.md)
