@@ -1,12 +1,12 @@
 # Access-Control-Allow-Credentials
 
-## 1. **Khái niệm**
+### 1. **Khái niệm**
 
 * `Access-Control-Allow-Credentials` là **response header** mà **server trả về** cho browser.
 * Nó quyết định xem **trình duyệt có được phép gửi kèm credentials (cookie, session, auth header, TLS cert)** trong **cross-origin request (CORS)** hay không.
 
 
-## 2. **Hoạt động**
+### 2. **Hoạt động**
 
 * Bình thường: khi gọi **cross-origin API**, browser **không gửi credentials** để tránh rủi ro CSRF.
 * Nếu client muốn gửi kèm credentials:
@@ -35,7 +35,7 @@ Lưu ý:
 * Nếu không cần credentials → **bỏ header đi**, KHÔNG được set `false`.
 
 
-## 3. **Mục đích**
+### 3. **Mục đích**
 
 * Kiểm soát bảo mật: tránh việc **website A (kẻ tấn công)** tự ý gọi API của **website B (bank, mail, …)** và dùng cookie session của bạn.
 * Giúp server **chủ động** quyết định khi nào chấp nhận **cross-origin request có credentials**.
@@ -58,9 +58,9 @@ Access-Control-Allow-Credentials: true
 → Browser sẽ chặn vì **quá nguy hiểm** (mọi site đều lấy được cookie/session).
 
 
-## 4. **Ví dụ**
+### 4. **Ví dụ**
 
-### 4.1. Client code (fetch API):
+#### 4.1. Client code (fetch API):
 
 ```js
 fetch("https://api.bank.com/account", {
@@ -68,7 +68,7 @@ fetch("https://api.bank.com/account", {
 });
 ```
 
-### 4.2. Server response (đúng):
+#### 4.2. Server response (đúng):
 
 ```
 HTTP/1.1 200 OK
