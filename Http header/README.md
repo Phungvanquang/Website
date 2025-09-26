@@ -126,7 +126,7 @@
 ### [Report-To]()
 ### [Status]()
 ### [X-Content-Duration]()
-### [X-Content-Type-Options]()
+  - 🤝[X-Content-Type-Options](https://github.com/Phungvanquang/Website/blob/main/Http%20header/X-Content-Type-Options.md)
 ### [X-Powered-By]()
 ### [X-Redirect-By]()
 ### [X-Redirect-By]()
