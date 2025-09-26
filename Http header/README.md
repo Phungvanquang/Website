@@ -62,7 +62,7 @@
   - [59. Priority]()
 # [II. Các trường phản hồi chuẩn.]()
 
-### [Accept]()
+  - 🤝[Accept](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Accept.md)
   - 🤝[Access-Control-Allow-Origin](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Access-Control-Allow-Origin.md)
   - 🤝[Access-Control-Allow-Credentials](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Access-Control-Allow-Credentials.md)
 ### [Access-Control-Expose-Headers]()
