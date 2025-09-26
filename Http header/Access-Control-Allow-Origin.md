@@ -2,9 +2,9 @@
 
 ### 1. Khái niệm
 
-`Access-Control-Allow-Origin` là **HTTP Response Header** thuộc nhóm **CORS (Cross-Origin Resource Sharing)**. Nó cho biết **tài nguyên trên server có thể được chia sẻ cho những Origin nào** (tức là nguồn gửi request, bao gồm protocol + domain + port).
+* `Access-Control-Allow-Origin` là **HTTP Response Header** thuộc nhóm **CORS (Cross-Origin Resource Sharing)**. Nó cho biết **tài nguyên trên server có thể được chia sẻ cho những Origin nào** (tức là nguồn gửi request, bao gồm protocol + domain + port).
 
-Nếu không có header này (hoặc cấu hình sai), trình duyệt sẽ **chặn** request cross-origin vì vi phạm **Same-Origin Policy (SOP)**.
+* Nếu không có header này (hoặc cấu hình sai), trình duyệt sẽ **chặn** request cross-origin vì vi phạm **Same-Origin Policy (SOP)**.
 
 
 ### 2. Cú pháp
@@ -59,7 +59,7 @@ Access-Control-Allow-Credentials: true
 
 ### 5. Liên quan đến caching
 
-Nếu server trả về nhiều origin khác nhau tuỳ client, cần thêm:
+* Nếu server trả về nhiều origin khác nhau tuỳ client, cần thêm:
 
 ```http
 Vary: Origin
