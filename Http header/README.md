@@ -63,7 +63,7 @@
 # [II. Các trường phản hồi chuẩn.]()
 
 ### [Accept]()
-### [Access-Control-Allow-Origin]()
+  - 🤝[Access-Control-Allow-Origin](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Access-Control-Allow-Origin.md)
   - 🤝[Access-Control-Allow-Credentials](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Access-Control-Allow-Credentials.md)
 ### [Access-Control-Expose-Headers]()
 ### [Access-Control-Max-Age]()
@@ -71,7 +71,7 @@
   - 🤝[Access-Control-Allow-Headers](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Access-Control-Allow-Headers.md)
 ### [Accept-Patch]()
 ### [Accept-Ranges]()
-### [Age](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Age.md)
+  - 🤝[Age](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Age.md)
 ### [Allow]()
 ### [Alt-Svc]()
   - 🤝[Cache-Control](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Cache-Control.pdf)
