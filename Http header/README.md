@@ -6,7 +6,7 @@
   - 🤝[3.Cookie](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Cookie.pdf)
   - 🤝[4.Content-Length](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Content-Length.pdf)
   - [5.X-Origin]()
-  - [6.Origin](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Origin.md)
+  - 🤝[6.Origin](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Origin.md)
   - 🤝[7.Sec-Ch-Ua-Platform](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Sec-CH-UA-Platform.pdf)
   - 🤝[8.Sec-Ch-Ua-Mobile](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Sec-Ch-Ua-Mobile.pdf)
   - 🤝[9.User-Agent](https://github.com/Phungvanquang/Website/blob/main/Http%20header/User-agent.pdf)
