@@ -82,6 +82,3 @@ Via: 1.0 fred, 1.1 p.example.net
 * Nếu không muốn lộ thông tin nội bộ, **dùng pseudonym** hoặc **loại bỏ/sửa `Via`** trước khi trả về client.
 * Sử dụng `Via` cho **debug / loop detection / diagnostic logging**, không phải cho xác thực user.
 
-
-
-Nếu bạn muốn mình **chuyển câu trả lời này thành định dạng giống y hệt** như bạn đã yêu cầu trước (dấu `1.`, `2.` ... + ví dụ code Nginx/Apache/Express để strip hoặc set pseudonym), mình sẽ soạn ngay theo mẫu đó để bạn copy-paste. Bạn muốn thêm phần code nào không?
