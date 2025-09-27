@@ -60,6 +60,7 @@
   - 🤝[57.X-Rewrite-Url](https://github.com/Phungvanquang/Website/blob/main/Http%20header/X-Rewrite-Url.pdf)
   - [58.X-Original-Url](https://github.com/Phungvanquang/Website/blob/main/Http%20header/X-Original-Url.pdf)
   - [59. Priority]()
+  - 🤝[Via](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Via.md)
 # [II. Các trường phản hồi chuẩn.]()
 
   - 🤝[Accept](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Accept.md)
@@ -111,7 +112,7 @@
 ### [Upgrade]()
   - 🤝[Vary](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Vary.md)
 ### [Permanent]()
-### [Via]()
+  - 🤝[Via](https://github.com/Phungvanquang/Website/blob/main/Http%20header/Via.md)
 ### [Warning]()
 ### [WWW-Authenticate]()                      
 ### [X-Frame-Options]()
