@@ -48,7 +48,7 @@ Via: [<protocol-name>/]<protocol-version> <pseudonym>
 * Proxies nên **sanitize**: nếu muốn giữ riêng tư, có thể dùng pseudonym hoặc xóa/đổi `Via` trước khi trả về client.
 * `Via` giúp phát hiện loop, nhưng chính header cũng có thể bị lợi dụng để dò cấu trúc mạng.
 
-### 7. **Khi nào nên dùng?**
+### 7. **phổ biến**
 
 * Hệ thống có **multiple proxies / CDN / load balancer** để debug, tracing đường đi request/response.
 * Dùng để **phòng chống loop** trên proxy chain.
