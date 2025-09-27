@@ -1,4 +1,4 @@
-# HTTP header `Via`
+# Via
 
 ### 1. **Khái niệm**
 * `Via` là một header **request và response** do **proxy** (forward hoặc reverse) thêm vào khi chuyển tiếp message. Mục đích chính: **theo dõi các hop (proxy) trong chuỗi**, **tránh vòng lặp (loop)** và **ghi nhận thông tin giao thức** mà mỗi proxy đã dùng khi forward.
